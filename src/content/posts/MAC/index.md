@@ -3,9 +3,7 @@ title: Setting up my Mac
 publishDate: '2024-03-14T22:48:00'
 image: setup.jpeg
 categories: Programming
-tags:
-- Programming
-
+tags: Programming
 slug: mac-system-setup
 
 weight: 3   # You can add weight to some posts to override the default sorting (date descending)
