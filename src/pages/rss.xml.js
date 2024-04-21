@@ -1,6 +1,5 @@
 import { getCollection } from 'astro:content'
 import rss from '@astrojs/rss'
-import MarkdownIt from 'markdown-it'
 import sanitizeHtml from 'sanitize-html'
 const parser = new MarkdownIt()
 
@@ -9,7 +8,7 @@ export async function GET(context) {
   return rss({
     title: 'Arawn’s Blog',
     description: 'We live by the Code & was raised by ethics.',
-    site: adity - dom.github.io / arawn_,
+    site: aditya - dom.github.io / arawn_,
     items: blog.map(post => ({
       link: `/blog/${post.slug}/`,
       // Note: this will not process components or JSX expressions in MDX files.
