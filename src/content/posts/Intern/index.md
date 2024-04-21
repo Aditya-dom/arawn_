@@ -3,11 +3,9 @@ title: Intern Hunting
 date: 2024-03-29 00:00:00+0000
 image: "./trade.jpeg"
 categories: Blog 
-tags:
-- Programming
-- Probability
+tags: ["Programming", "Probability"]
 slug: intern-hunting
-weight: 1
+draft: false
 ---
 
 > Not everything goes exactly as planned. That's why it's a plan, not a certainty. 
