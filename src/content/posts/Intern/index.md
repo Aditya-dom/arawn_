@@ -1,6 +1,6 @@
 ---
 title: Intern Hunting
-date: 2024-03-29 00:00:00+0000
+published: 2024-03-29 
 image: "./trade.jpeg"
 categories: Blogging 
 tags: ["Programming", "Probability"]

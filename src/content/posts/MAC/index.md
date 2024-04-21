@@ -1,6 +1,6 @@
 ---
 title: Setting up my Mac
-publishDate: '2024-03-14T22:48:00'
+published: 2024-03-14
 image: setup.jpeg
 categories: Programming
 tags: [Programming]
