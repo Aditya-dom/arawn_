@@ -1,21 +1,8 @@
-import { getCollection } from 'astro:content'
-import rss from '@astrojs/rss'
-import sanitizeHtml from 'sanitize-html'
-const parser = new MarkdownIt()
+import { defineCollection } from 'astro:content'
+import { rssSchema } from '@astrojs/rss'
 
-export async function GET(context) {
-  const blog = await getCollection('blog')
-  return rss({
-    title: 'Arawn’s Blog',
-    description: 'We live by the Code & was raised by ethics.',
-    site: aditya - dom.github.io / arawn_,
-    items: blog.map(post => ({
-      link: `/blog/${post.slug}/`,
-      // Note: this will not process components or JSX expressions in MDX files.
-      content: sanitizeHtml(parser.render(post.body), {
-        allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img']),
-      }),
-      ...post.data,
-    })),
-  })
-}
+const blog = defineCollection({
+  schema: rssSchema,
+})
+
+export const collections = { blog }
