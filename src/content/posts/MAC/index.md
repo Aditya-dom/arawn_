@@ -1,6 +1,6 @@
 ---
 title: Setting up my Mac
-published: 2024-03-14
+published: 2024-03-10
 description: Empowering my Mac for greatness. Can I have the go-ahead? Appreciate it!
 image: "./setup.jpeg"
 category: Programming

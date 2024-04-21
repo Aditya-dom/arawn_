@@ -2,7 +2,7 @@
 title: Harmonizing Emotions 
 description: Exploring the Profound Connection Between Music and Human Emotions.
 slug: Harmonizing-Emotions
-published: 2024-03-10 
+published: 2024-03-14 
 image: "./Cover.jpg" 
 category: Blogging
 tags: [Music]
