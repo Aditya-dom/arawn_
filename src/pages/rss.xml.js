@@ -1,6 +1,6 @@
 import rss from '@astrojs/rss'
 
-import { formatBlogPosts } from '../js/utils'
+import { formatBlogPosts } from '../content/posts'
 
 const postImportResult = import.meta.glob('./blog/**/*.md', { eager: true })
 const posts = formatBlogPosts(Object.values(postImportResult))
