@@ -36,19 +36,24 @@ export const profileConfig: ProfileConfig = {
   bio: 'We live by the code & was raised by ethics.',
   links: [
     {
+      name: 'GitHub',
+      icon: 'fa6-brands:github',
+      url: 'https://github.com/Aditya-dom',
+    },
+    {
       name: 'Twitter',
       icon: 'fa6-brands:twitter',
       url: 'https://twitter.com',
     },
     {
-      name: 'Steam',
-      icon: 'fa6-brands:steam',
-      url: 'https://store.steampowered.com',
+      name: 'Spotify',
+      icon: 'fa6-brands:spotify',
+      url: 'https://open.spotify.com/user/cmp0d8tkqc62rbkmktv4nk65e?si=3168cc1a57604be5',
     },
     {
-      name: 'GitHub',
-      icon: 'fa6-brands:github',
-      url: 'https://github.com/Aditya-dom',
+      name: 'RSS',
+      icon: 'fa6-solid:rss',
+      url: '/feed.xml',
     },
   ],
 }
