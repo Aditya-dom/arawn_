@@ -5,7 +5,7 @@ slug: Harmonizing-Emotions
 date: 2024-03-14 00:00:00+0000
 image: cover.jpg 
 categories: Blogging
-tags: Music
+tags: [Music]
 weight: 2      # You can add weight to some posts to override the default sorting (date descending)
 ---
 
