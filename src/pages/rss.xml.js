@@ -1,22 +1,11 @@
-import rss from '@astrojs/rss'
+import rss, { pagesGlobToRssItems } from '@astrojs/rss'
 
-import { formatBlogPosts } from '../content/posts'
-
-const postImportResult = import.meta.glob('./blog/**/*.md', { eager: true })
-const posts = formatBlogPosts(Object.values(postImportResult))
-
-export const get = () =>
-  rss({
+export async function GET(context) {
+  return rss({
     title: "Arawn's Blog",
-    description: 'We live by the code & was raised by ethics.',
-    site: import.meta.env.SITE,
-    items: posts.map(post => ({
-      link: post.url,
-      title: post.frontmatter.title,
-      pubDate: post.frontmatter.date,
-      description: post.frontmatter.description,
-      customData: `
-      <author>${post.frontmatter.author}</author>
-    `,
-    })),
+    description: 'We live by the code & was raised by the code.',
+    site: context.site,
+    items: await pagesGlobToRssItems(import.meta.glob('./**/*.md')),
+    customData: `<language>en-us</language>`,
   })
+}
