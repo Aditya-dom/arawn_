@@ -2,7 +2,7 @@
 title: Intern Hunting
 date: 2024-03-29 00:00:00+0000
 image: "./trade.jpeg"
-categories: Blog 
+categories: Blogging 
 tags: ["Programming", "Probability"]
 slug: intern-hunting
 draft: false
