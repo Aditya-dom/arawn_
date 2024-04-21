@@ -22,7 +22,6 @@ export const navBarConfig: NavBarConfig = {
     LinkPreset.Home,
     LinkPreset.Archive,
     LinkPreset.About,
-    LinkPreset.Projects,
     {
       name: 'GitHub',
       url: 'https://github.com/Aditya-dom',
