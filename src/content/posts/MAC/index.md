@@ -1,8 +1,9 @@
 ---
 title: Setting up my Mac
 published: 2024-03-14
+description: Empowering my Mac for greatness. Can I have the go-ahead? Appreciate it!
 image: "./setup.jpeg"
-categories: Programming
+category: Programming
 tags: [Programming]
 slug: mac-system-setup
 

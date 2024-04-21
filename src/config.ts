@@ -43,7 +43,7 @@ export const profileConfig: ProfileConfig = {
     {
       name: 'Twitter',
       icon: 'fa6-brands:twitter',
-      url: 'https://twitter.com',
+      url: 'https://twitter.com/Aditya_dom10',
     },
     {
       name: 'Spotify',
@@ -53,7 +53,7 @@ export const profileConfig: ProfileConfig = {
     {
       name: 'RSS',
       icon: 'fa6-solid:rss',
-      url: '/feed.xml',
+      url: '/index.xml',
     },
   ],
 }

@@ -1,8 +1,9 @@
 ---
 title: Intern Hunting
 published: 2024-03-29 
+description: Embarked on a daring hunting internship, embracing challenges, and seizing every opportunity nature offered.
 image: "./trade.jpeg"
-categories: Blogging 
+category: Blogging 
 tags: ["Programming", "Probability"]
 slug: intern-hunting
 draft: false
