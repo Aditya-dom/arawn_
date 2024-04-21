@@ -9,7 +9,7 @@ export async function GET(context) {
   return rss({
     title: 'Arawn’s Blog',
     description: 'We live by the Code & was raised by ethics.',
-    site: context.site,
+    site: adity - dom.github.io / arawn_,
     items: blog.map(post => ({
       link: `/blog/${post.slug}/`,
       // Note: this will not process components or JSX expressions in MDX files.
