@@ -7,8 +7,8 @@ import type {
 import { LinkPreset } from './types/config'
 
 export const siteConfig: SiteConfig = {
-  title: "Arawns's Blog",
-  subtitle: 'Mywebsite Site',
+  title: "Arawn's Blog",
+  subtitle: 'My Personal website Site',
   lang: 'en',
   themeHue: 250,
   banner: {
@@ -22,6 +22,7 @@ export const navBarConfig: NavBarConfig = {
     LinkPreset.Home,
     LinkPreset.Archive,
     LinkPreset.About,
+    LinkPreset.Projects,
     {
       name: 'GitHub',
       url: 'https://github.com/Aditya-dom',
