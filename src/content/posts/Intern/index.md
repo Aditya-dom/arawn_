@@ -106,7 +106,7 @@ I'm pleased to announce that I'll be joining <b>XYZ</b>  as a <b>Algorithmic Tra
 
 Truth be told, it's not as simple as this. Never is. Here's a small sankey diagram I made of how the entire process unfolded.
 
-![](intern-search.png)
+![](./intern-search.png)
 
 I had two shortlists and ended up converting both, and I really enjoyed the interview processes in both the companies I applied to. Very kind and very smart interviewers, very cool people overall. Would've loved to send one half of me to each company, but unfortunately that's not possible :')
 

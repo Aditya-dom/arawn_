@@ -1,7 +1,7 @@
 ---
 title: Setting up my Mac
 published: 2024-03-14
-image: setup.jpeg
+image: "./setup.jpeg"
 categories: Programming
 tags: [Programming]
 slug: mac-system-setup
@@ -46,7 +46,7 @@ dscacheutil -flushcache
 	- Use F1, F2 as function keys (Keyboard)
 	- Don't show input menu in menu bar (Keyboard->Input Sources)
 	- Dark Mode  
-	![dark side meme](darkside.jpeg)
+	![dark side meme](./darkside.jpeg)
 	- Change computer name to MacBook-Pro (Sharing)
 
 - Google Chrome:
