@@ -10,6 +10,7 @@ import rehypeKatex from 'rehype-katex'
 import rehypeSlug from 'rehype-slug'
 import remarkMath from 'remark-math'
 import { remarkReadingTime } from './src/plugins/remark-reading-time.mjs'
+import sitemap form '@astrojs/sitemap';
 
 const oklchToHex = str => {
   const DEFAULT_HUE = 250
@@ -49,6 +50,7 @@ export default defineConfig({
       Image: false,
     }),
     svelte(),
+    sitemap(),
   ],
   markdown: {
     remarkPlugins: [remarkMath, remarkReadingTime],
