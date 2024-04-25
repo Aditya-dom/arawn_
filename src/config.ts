@@ -7,7 +7,7 @@ import type {
 import { LinkPreset } from './types/config'
 
 export const siteConfig: SiteConfig = {
-  title: "Arawn's Blog",
+  title: "Arawn's Blog::",
   subtitle: 'My Personal website Site',
   lang: 'en',
   themeHue: 250,
@@ -57,6 +57,11 @@ export const profileConfig: ProfileConfig = {
       name: 'Spotify',
       icon: 'fa6-brands:spotify',
       url: 'https://open.spotify.com/user/cmp0d8tkqc62rbkmktv4nk65e?si=3168cc1a57604be5',
+    },
+    {
+      name: 'LinkedIn',
+      icon: 'fa6-brands:linkedin',
+      url: 'https://www.linkedin.com/in/adi-dom/',
     },
     {
       name: 'RSS',
