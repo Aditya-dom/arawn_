@@ -114,3 +114,20 @@ I had two shortlists and ended up converting both, and I really enjoyed the inte
 
 >> All the best, and happy intern hunting!
 
+<script src="https://giscus.app/client.js"
+        data-repo="Aditya-dom/arawn.github.io"
+        data-repo-id="R_kgDOLeAbmQ"
+        data-category="General"
+        data-category-id="DIC_kwDOLeAbmc4CeCQd"
+        data-mapping="title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="1"
+        data-input-position="top"
+        data-theme="dark_dimmed"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
+
