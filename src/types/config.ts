@@ -1,20 +1,27 @@
+import type { LIGHT_MODE, DARK_MODE, AUTO_MODE } from "@constants/constants"
+
 export type SiteConfig = {
   title: string
   subtitle: string
 
   lang: string
 
-  themeHue: number
+  themeColor: {
+    hue: number
+    fixed: boolean
+  }
   banner: {
     enable: boolean
     src: string
+    position?: string
   }
+
   favicon: Favicon[]
 }
 
 export type Favicon = {
   src: string
-  theme: 'light' | 'dark'
+  theme?: 'light' | 'dark'
   sizes?: string
 }
 
@@ -22,7 +29,6 @@ export enum LinkPreset {
   Home = 0,
   Archive = 1,
   About = 2,
-  Projects = 3,
 }
 
 export type NavBarLink = {
@@ -51,3 +57,5 @@ export type LicenseConfig = {
   name: string
   url: string
 }
+
+export type LIGHT_DARK_MODE = typeof LIGHT_MODE | typeof DARK_MODE | typeof AUTO_MODE
