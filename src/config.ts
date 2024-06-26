@@ -10,10 +10,14 @@ export const siteConfig: SiteConfig = {
   title: "Arawn's Blog",
   subtitle: 'My Personal website',
   lang: 'en',
-  themeHue: 250,
+  themeColor: {
+    hue: 250, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
+    fixed: false, // Hide the theme color picker for visitors
+  },
   banner: {
     enable: true,
     src: 'assets/images/demo-banner.png',
+    position: 'center',
   },
   favicon: [
     // Leave this array empty to use the default favicon
