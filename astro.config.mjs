@@ -7,11 +7,10 @@ import icon from 'astro-icon'
 import { defineConfig } from 'astro/config'
 import Color from 'colorjs.io'
 import rehypeAutolinkHeadings from 'rehype-autolink-headings'
-import rehypeComponents from 'rehype-components' /* Render the custom directive content */
+/*import rehypeComponents from 'rehype-components'*/ /* Render the custom directive content */
 import rehypeKatex from 'rehype-katex'
 import rehypeSlug from 'rehype-slug'
-import remarkDirective from 'remark-directive' /* Handle directives */
-import remarkGithubAdmonitionsToDirectives from 'remark-github-admonitions-to-directives'
+/*import remarkDirective from 'remark-directive'*/ /* Handle directives */
 import remarkMath from 'remark-math'
 import { AdmonitionComponent } from './src/plugins/rehype-component-admonition.mjs'
 import { GithubCardComponent } from './src/plugins/rehype-component-github-card.mjs'
