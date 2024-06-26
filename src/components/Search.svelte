@@ -1,10 +1,13 @@
 import { onMount } from 'svelte'
+import { url } from '@utils/url-utils.ts'
+import { i18n } from '@i18n/translation'
+import I18nKey from '@i18n/i18nKey'
 const keywordDesktop = ''
 const keywordMobile = ''
 let result = []
 const fakeResult = [
   {
-    url: '/',
+    url: url('/'),
     meta: {
       title: 'This Is a Fake Search Result',
     },
@@ -12,7 +15,7 @@ const fakeResult = [
       'Because the search cannot work in the <mark>dev</mark> environment.',
   },
   {
-    url: '/',
+    url: url('/'),
     meta: {
       title: 'If You Want to Test the Search',
     },
@@ -28,7 +31,7 @@ onMount(() => {
     if (!panel) return
 
     if (!keyword && isDesktop) {
-      panel.classList.add('closed')
+      panel.classList.add('float-panel-closed')
       return
     }
 
@@ -45,12 +48,12 @@ onMount(() => {
     }
 
     if (!arr.length && isDesktop) {
-      panel.classList.add('closed')
+      panel.classList.add('float-panel-closed')
       return
     }
 
     if (isDesktop) {
-      panel.classList.remove('closed')
+      panel.classList.remove('float-panel-closed')
     }
     result = arr
   }
@@ -58,7 +61,7 @@ onMount(() => {
 
 const togglePanel = () => {
   const panel = document.getElementById('search-panel')
-  panel?.classList.toggle('closed')
+  panel?.classList.toggle('float-panel-closed')
 }
 
 $: search(keywordDesktop, true)
