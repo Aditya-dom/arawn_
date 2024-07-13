@@ -26,7 +26,7 @@ The binomial tree model involves several key parameters:
 - $\( u \)$: Up factor (rate of upward movement)
 - $\( d \)$: Down factor (rate of downward movement)
 - $\( p \)$: Probability of an upward movement
-- $\( (1 - p) \)$: Probability of a downward movement
+- $\(1 - p\)$: Probability of a downward movement
 - $\( r \)$: Risk-free interest rate
 - $\( \Delta t \)$: Time step
 
