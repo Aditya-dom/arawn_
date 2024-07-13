@@ -18,13 +18,6 @@ Now we can introduce the Binomial part of the model. Given the initial stock pri
 
 ![](./binotree.png)
 
-$$\begin{align}
-\mu_{\B} &= \frac{1}{m} \sum_i x_i \\\\
-\sigma_{\B}^2 &= \left( \frac{1}{m} \sum_i x_i^2 \right) - \mu_{\B}^2 \\\\
-\hat{x}\_i &= \frac{x_i - \mu_{\B}}{\sqrt{\sigma^2_{\B} + \epsilon}} \\\\
-y_i &= \gamma \hat{x}\_i + \beta 
-\end{align}$$
-
 ## Formula
 
 The binomial tree model involves several key parameters:
