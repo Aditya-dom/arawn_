@@ -18,37 +18,38 @@ Now we can introduce the Binomial part of the model. Given the initial stock pri
 
 ![](./binotree.png)
 
+
 ## Formula
 
 The binomial tree model involves several key parameters:
 
-- \( S_0 \): Current price of the underlying asset
-- \( u \): Up factor (rate of upward movement)
-- \( d \): Down factor (rate of downward movement)
-- \( p \): Probability of an upward movement
-- \( (1 - p) \): Probability of a downward movement
-- \( r \): Risk-free interest rate
-- \( \Delta t \): Time step
+- $\( S_0 \)$: Current price of the underlying asset
+- $\( u \)$: Up factor (rate of upward movement)
+- $\( d \)$: Down factor (rate of downward movement)
+- $\( p \)$: Probability of an upward movement
+- $\( (1 - p) \)$: Probability of a downward movement
+- $\( r \)$: Risk-free interest rate
+- $\( \Delta t \)$: Time step
 
 ### Up and Down Factors
-\[ u = e^{\sigma \sqrt{\Delta t}} \]
-\[ d = e^{-\sigma \sqrt{\Delta t}} \]
+$$\[ u = e^{\sigma \sqrt{\Delta t}} \]$$
+$$\[ d = e^{-\sigma \sqrt{\Delta t}} \]$$
 
 ### Risk-Neutral Probability
-\[ p = \frac{e^{r \Delta t} - d}{u - d} \]
+$$\[ p = \frac{e^{r \Delta t} - d}{u - d} \]$$
 
 ## Pricing an Option
 
 To price a European call option using a binomial tree, follow these steps:
 
 1. **Construct the price tree:** Calculate the possible prices of the underlying asset at each node of the tree.
-2. **Calculate the option value at the terminal nodes:** At expiration, the value of a call option is \( \max(S_T - K, 0) \), where \( S_T \) is the stock price at expiration and \( K \) is the strike price.
+2. **Calculate the option value at the terminal nodes:** At expiration, the value of a call option is $\( \max(S_T - K, 0) \)$, where $\( S_T \)$ is the stock price at expiration and $$\( K \)$$ is the strike price.
 3. **Back-propagate the option values:** Using the risk-neutral probabilities, calculate the option value at each node by discounting the expected value of the option's payoff at the next time step.
 
 ### Backward Induction
-\[ C(i, j) = e^{-r \Delta t} \left[ p C(i + 1, j + 1) + (1 - p) C(i + 1, j) \right] \]
+$$\[ C(i, j) = e^{-r \Delta t} \left[ p C(i + 1, j + 1) + (1 - p) C(i + 1, j) \right] \]$$
 
-where \( C(i, j) \) is the option value at node \( (i, j) \).
+where $$\( C(i, j) \)$$ is the option value at node $$\( (i, j) \)$$.
 
 Now we introduce the new concept of risk neutral probability. Risk neural probability is the probability of an up or down price movement, p and q respectively, in the risk neutral probability measure. The risk neutral probability allows us to define a discounted stock price, which accounts for the time value of money. Turns out the discounted stock price is a Markov Process under the risk neutral probability measure (for more details on probability measures and Markov Processes, please refer to Stochastic Calculus for Finance I by Steven Shreve).
 
