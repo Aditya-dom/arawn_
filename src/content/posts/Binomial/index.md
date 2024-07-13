@@ -31,8 +31,6 @@ The binomial tree model involves several key parameters:
 - $\( r \)$: Risk-free interest rate
 - $\( \Delta t \)$: Time step
 
-\(\( \Delta t \)\)
-
 ### Up and Down Factors
 
 $$\[ u = e^{\sigma \sqrt{\Delta t}} \]$$
