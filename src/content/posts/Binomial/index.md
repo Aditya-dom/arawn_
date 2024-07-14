@@ -4,7 +4,7 @@ published: 2024-07-14
 description: A short introduction from a computer science perspective of Binomial mdoel simulates asset price movements using a tree structure and recursively calculates option prices from expiration to the present.
 image: "./coverbino.png"
 category: Programming
-tags: ["Programming", "Probability"]
+tags: ["Programming", "Probability", "Mathematics", "Quant"]
 slug: binomial-option-pricing
 ---
 
