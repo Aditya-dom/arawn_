@@ -53,6 +53,20 @@ $$C(i, j) = e^{-r \Delta t} \left[ p C(i + 1, j + 1) + (1 - p) C(i + 1, j) \righ
 
 where $C(i, j)$ is the option value at node  $(i, j)$.
 
+
+## Pricing Algorithm
+
+The extension of the model to multiple periods is straightforward. If we set ´d/1/u´, we get a recombining tree, i.e., the intermediate nodes merge and we get one node more for each time step instead of double the number of nodes.
+
+The pricing algorithm proceeds in three steps: 
+
+* Construct the binomial tree forward in time: calculate for each node the stock price
+* Evaluate the payoff at the terminal nodes using the $call / put$ formula: $$max(0, S - K) / max(0, K - S)$$
+* Propagate the values of the nodes back (i.e., from the terminal nodes to the initial node)
+
+Note that in order to save memory and computation time, not the whole tree has to be stored. The stock price at the terminal
+nodes can be directly computed and stored in an array. When we go back in time, we can keep updating this array.
+
 Now we introduce the new concept of risk neutral probability. Risk neural probability is the probability of an up or down price movement, p and q respectively, in the risk neutral probability measure. The risk neutral probability allows us to define a discounted stock price, which accounts for the time value of money. Turns out the discounted stock price is a Markov Process under the risk neutral probability measure (for more details on probability measures and Markov Processes, please refer to Stochastic Calculus for Finance I by Steven Shreve).
 
 So if we are given the return of the option at time of exercise, we can calculate recursively the value of the portfolio in terms of stocks and bonds that result in the same return. According to NAC, this should give us the value of our bond at current time.
