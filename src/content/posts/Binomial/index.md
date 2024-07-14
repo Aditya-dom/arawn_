@@ -28,16 +28,17 @@ The binomial tree model involves several key parameters:
 - $\( p \)$: Probability of an upward movement
 - $\(1 - p\)$: Probability of a downward movement
 - $\( r \)$: Risk-free interest rate
-- $\( \Delta t \)$: Time step
+- $\( $\Delta t$ \)$: Time step
 
 ### Up and Down Factors
 
 $$u = e^{\sigma \sqrt{\Delta t}}$$ 
 
-\[ $$d = e^{-\sigma \sqrt{\Delta t}}$$ \]
+$$d = e^{-\sigma \sqrt{\Delta t}}$$
 
 ### Risk-Neutral Probability
-\[ $$p = \frac{e^{r \Delta t} - d}{u - d}$$ \]
+
+$$p = \frac{e^{r \Delta t} - d}{u - d}$$
 
 ## Pricing an Option
 
