@@ -61,7 +61,7 @@ The extension of the model to multiple periods is straightforward. If we set ´d
 The pricing algorithm proceeds in three steps: 
 
 * Construct the binomial tree forward in time: calculate for each node the stock price
-* Evaluate the payoff at the terminal nodes using the $call / put$ formula: $$max(0, S - K) / max(0, K - S)$$
+* Evaluate the payoff at the terminal nodes using the $\frac{call}{put}$ formula: $\frac{max(0, S - K)}{max(0, K - S)}$
 * Propagate the values of the nodes back (i.e., from the terminal nodes to the initial node)
 
 Note that in order to save memory and computation time, not the whole tree has to be stored. The stock price at the terminal
