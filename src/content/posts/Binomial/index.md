@@ -58,7 +58,7 @@ where $C(i, j)$ is the option value at node  $(i, j)$.
 
 The extension of the model to multiple periods is straightforward. If we set ´d/1/u´, we get a recombining tree, i.e., the intermediate nodes merge and we get one node more for each time step instead of double the number of nodes.
 
-The pricing algorithm proceeds in three steps: 
+> The pricing algorithm proceeds in three steps: 
 
 * Construct the binomial tree forward in time: calculate for each node the stock price
 * Evaluate the payoff at the terminal nodes using the $\frac{call}{put}$ formula: $\frac{max(0, S - K)}{max(0, K - S)}$
@@ -84,7 +84,7 @@ The file that is central to modelling the stock options is `stock_option.py` bec
 **Volatility Prediction**
 Since predicting the volatility of the stock is paramount to pricing the option accurately, I invested some time in learning the GARCH model, which is commonly used to model volatility. **_To use the GARCH model however, the time series had to stationary_** (will be explained in GARCH post), which in essence means that the series has no trend. To make the stock price stationary, I looked at the return of the natural logarithm of the stock price. Once the series is stationary, we need to decide on the parameters for the GARCH model. This can be done by looking at the Autocorrelation plot of the series. Having decided on the parameters, I implemented the GARCH model using the library `arch` as such:
 
-```
+```python
 import numpy as np
 import pandas as pd
 import pandas_datareader.data as pdr
@@ -112,7 +112,7 @@ def garch_sigma(self):
 
 The reason why I used a class to model volatility and then defined the GARCH model as a function is so that I can implement multiple models to compare when pricing the option. Apart from the GARCH model, I also predicted volatility using a simple exponentially weighted standard deviation:
 
-```
+```python
 def mean_sigma(self):
    st = self.stock_data["log"].dropna().ewm(span=252).std()
    sigma = st.iloc[-1]
@@ -124,7 +124,7 @@ def mean_sigma(self):
 ### Building Price Tree
 When building the price tree, I was faced with choosing what method to use: binomial tree and __upper triangular matrices__ were both sound choices. I ended up choosing upper triangular matrices due to the highly optimised `numpy` library. I set the initial stock price to be [1, 1] of the matrix and split along the diagonal every iteration to build the stock price tree. The portfolio value tree was the same as the stock tree, except that it was build recursively, starting from the nth column. I implemented as such in my program:
 
-```
+```python
 class euro_option(stockoption):
    '''
    calculate required preliminary parameters:
