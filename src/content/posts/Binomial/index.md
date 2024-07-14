@@ -32,7 +32,7 @@ The binomial tree model involves several key parameters:
 
 ### Up and Down Factors
 
-$$\[ u = e^{\sigma \sqrt{\Delta t}} \]$$
+\[u = e^{\sigma \sqrt{\Delta t}}\]
 
 $$\[ d = e^{-\sigma \sqrt{\Delta t}} \]$$
 
