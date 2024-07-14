@@ -78,10 +78,11 @@ The difficulty in this model arises in modelling the volatility to input into th
 
 Now we can get to the implementation of the model in Python. I had a few key principles in mind: customisability and improvement of volatility modelling. Customisability is necessary because of the nature of security derivatives and the existence of exotic options. Models such as Black-Scholes are more rigid in terms of customisability, so I want to make sure my Binomial Model is not so. Predicting volatility is key to being able to build the stock price tree, since the up and down factors depend heavily on volatility. Hence, I wanted to try multiple methods and see which of it is the best.
 
-**Main files**
+### **Main files**
+
 The file that is central to modelling the stock options is `stock_option.py` because it contains all the important common characteristics of a stock option and allows the user to customise what type of option they want to model using the `prm` argument. Once we have the common characteristics defined, we can focus on a specific type of option in the separate files. For example, the `eu_option.py` file is used to model the European option and is where the entire of the mathematical framework lies. Most of this is established material. The main advancement I can implement is in the `stock_volatility.py`file, where I code the various volatility models. Now we will look at how the GARCH model was used.
 
-**Volatility Prediction**
+### **Volatility Prediction**
 Since predicting the volatility of the stock is paramount to pricing the option accurately, I invested some time in learning the GARCH model, which is commonly used to model volatility. **_To use the GARCH model however, the time series had to stationary_** (will be explained in GARCH post), which in essence means that the series has no trend. To make the stock price stationary, I looked at the return of the natural logarithm of the stock price. Once the series is stationary, we need to decide on the parameters for the GARCH model. This can be done by looking at the Autocorrelation plot of the series. Having decided on the parameters, I implemented the GARCH model using the library `arch` as such:
 
 ```python
