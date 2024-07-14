@@ -32,12 +32,12 @@ The binomial tree model involves several key parameters:
 
 ### Up and Down Factors
 
-\[ $$u = e^{\sigma \sqrt{\Delta t}}$$ \]
+$$u = e^{\sigma \sqrt{\Delta t}}$$ 
 
-$$\[ d = e^{-\sigma \sqrt{\Delta t}} \]$$
+\[ $$d = e^{-\sigma \sqrt{\Delta t}}$$ \]
 
 ### Risk-Neutral Probability
-$$\[ p = \frac{e^{r \Delta t} - d}{u - d} \]$$
+\[ $$p = \frac{e^{r \Delta t} - d}{u - d}$$ \]
 
 ## Pricing an Option
 
