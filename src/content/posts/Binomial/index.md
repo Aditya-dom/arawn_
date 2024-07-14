@@ -22,7 +22,7 @@ Now we can introduce the Binomial part of the model. Given the initial stock pri
 
 The binomial tree model involves several key parameters:
 
-- $\( S_0 \)$: Current price of the underlying asset
+- $\\( S_0 \)\$: Current price of the underlying asset
 - $\( u \)$: Up factor (rate of upward movement)
 - $\( d \)$: Down factor (rate of downward movement)
 - $\( p \)$: Probability of an upward movement
