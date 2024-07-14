@@ -64,8 +64,9 @@ The pricing algorithm proceeds in three steps:
 * Evaluate the payoff at the terminal nodes using the $\frac{call}{put}$ formula: $\frac{max(0, S - K)}{max(0, K - S)}$
 * Propagate the values of the nodes back (i.e., from the terminal nodes to the initial node)
 
-Note that in order to save memory and computation time, not the whole tree has to be stored. The stock price at the terminal
-nodes can be directly computed and stored in an array. When we go back in time, we can keep updating this array.
+:::note
+Note that in order to save memory and computation time, not the whole tree has to be stored. The stock price at the terminal nodes can be directly computed and stored in an array. When we go back in time, we can keep updating this array.
+:::
 
 Now we introduce the new concept of risk neutral probability. Risk neural probability is the probability of an up or down price movement, p and q respectively, in the risk neutral probability measure. The risk neutral probability allows us to define a discounted stock price, which accounts for the time value of money. Turns out the discounted stock price is a Markov Process under the risk neutral probability measure (for more details on probability measures and Markov Processes, please refer to Stochastic Calculus for Finance I by Steven Shreve).
 
