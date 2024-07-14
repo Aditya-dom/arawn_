@@ -120,10 +120,10 @@ def mean_sigma(self):
    return sigma
 ```
 
-> Now comes my favorite part.(mathematics, which I have learned for JEE and am implementing here. Life is uncretain. I Mean, LOOK AT YOU. hehe!😁)
+> Now comes my favorite part.(mathematics, which I learned for JEE and am implementing here. Life is uncretain. I Mean, LOOK AT YOU. hehe!😁)
 
 ### Building Price Tree
-When building the price tree, I was faced with choosing what method to use: binomial tree and __upper triangular matrices__ were both sound choices. I ended up choosing upper triangular matrices due to the highly optimised `numpy` library. I set the initial stock price to be [1, 1] of the matrix and split along the diagonal every iteration to build the stock price tree. The portfolio value tree was the same as the stock tree, except that it was build recursively, starting from the nth column. I implemented as such in my program:
+When building the price tree, I was faced with choosing what method to use: binomial tree and _upper triangular matrices_ were both sound choices. I ended up choosing upper triangular matrices due to the highly optimised `numpy` library. I set the initial stock price to be [1, 1] of the matrix and split along the diagonal every iteration to build the stock price tree. The portfolio value tree was the same as the stock tree, except that it was build recursively, starting from the nth column. I implemented as such in my program:
 
 ```python
 class euro_option(stockoption):
