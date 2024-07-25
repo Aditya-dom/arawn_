@@ -97,7 +97,7 @@ $$a_n = \frac{2}{T} \int_{c}^{c+T} f(t) \cos\left(n \omega (t - c)\right) \, dt 
 
 $$b_n = \frac{2}{T} \int_{c}^{c+T} f(t) \sin\left(n \omega (t - c)\right) \, dt \quad \text{for} \; n \geq 1$$
 
-![](./stepfunction.gif)
+![](./sinewave.gif)
 > Triangular Wave formation using just pure sine waves
 
 **The GIF where the Square wave(Step Function for a particular case) or Triangular wave is formed as an example of this series. As you can see we are just adding pure waves with certain frequency and amplitude. They are just waves and not have any circles in it.**
