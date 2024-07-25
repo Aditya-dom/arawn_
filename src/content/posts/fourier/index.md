@@ -155,9 +155,9 @@ The problems concerning the possibility of expressing a function by Fourier Seri
 Convergence of The Series:
 If f(x) and $f`(x)$ are sectionally continuous in $-L$ to $L$ and $f(x)$ satisfies Dirichlet conditions then according to Fourier Theorem we can say:
 
-The Fourier series of f(x) converges to ${(f(x+)+f(x-)}{2}$
+The Fourier series of f(x) converges to $\frac{f(x+)+f(x-)}{2}$
 
-If f(x) is discontinuous at a point x0, then the Fourier series of f(x) converges to ${f(x0+ɛ)+f(x0-ɛ)}{2}$ as $ɛ→0$.
+If f(x) is discontinuous at a point $x0$, then the Fourier series of f(x) converges to $\frac{f(x0+ɛ)+f(x0-ɛ)}{2}$ as $ɛ→0$.
 
 Odd-Even Function Trick:
 When we expand any function we have an equation with a Left hand side and Right hand side . As both sides must be equal, If one side has even function , then another one must be even and if one is odd then other must be odd also. This simple idea is very far reaching and it reduces the complexity of calculation.
