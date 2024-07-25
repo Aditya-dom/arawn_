@@ -12,7 +12,7 @@ slug: fourier-intro
 
 It all starts when Joseph Fourier started to analyze the Heat Equation which looks like:
 
-### $\frac{\partial u}{\partial t} = \alpha \nabla^2 u or \frac{\partial T(x, y)}{\partial t} = \alpha \frac{\partial^2 T(x, y)}{\partial x^2}$
+### $\frac{\partial u}{\partial t} = \alpha \nabla^2 u$  or  $\frac{\partial T(x, y)}{\partial t} = \alpha \frac{\partial^2 T(x, y)}{\partial x^2}$
 
 > Here T represent Temperature at any position x at time t
 
