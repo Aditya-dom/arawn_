@@ -52,6 +52,8 @@ As you can see in the gif, As we keep adding the cosine or sine or their combina
 
 > Now we understand the idea behind this beautiful method. So, Now let’s see how to calculate one.
 
+***
+
 ## Fourier Series of a Function:
 
 If a function f(x) of some real variable x, defined and integrable in the interval
@@ -104,11 +106,11 @@ In these $2$ equations $a0$, an and bn are called Fourier Constants and are give
 
 $$a_0 = \frac{1}{T} \int_{c}^{c+T} f(t) \, dt$$
 
-## \( a_n \) - The Cosine Coefficients
+#### \( a_n \) - The Cosine Coefficients
 
 $$a_n = \frac{2}{T} \int_{c}^{c+T} f(t) \cos\left(n \omega (t - c)\right) \, dt \quad \text{for} \; n \geq 1$$
 
-## \( b_n \) - The Sine Coefficients
+#### \( b_n \) - The Sine Coefficients
 
 $$b_n = \frac{2}{T} \int_{c}^{c+T} f(t) \sin\left(n \omega (t - c)\right) \, dt \quad \text{for} \; n \geq 1$$
 
@@ -161,6 +163,7 @@ Odd-Even Function Trick:
 When we expand any function we have an equation with a Left hand side and Right hand side . As both sides must be equal, If one side has even function , then another one must be even and if one is odd then other must be odd also. This simple idea is very far reaching and it reduces the complexity of calculation.
 
 As we know cosine is an even function so if $f(x) = f(-x)$, then Expansion of $f(x)$ only contains terms with cosines and if $f(x) = -f(-x)$, then Expansion of $f(x)$ only contains terms with Sine as sine is a odd function.
+***
 
 ### Calculation:
 Let’s calculate the fourier series of the square wave as an example:
@@ -212,6 +215,8 @@ $$f(t) = \frac{4}{\pi} \left[ \sin(\omega t) + \frac{\sin(3\omega t)}{3} + \frac
 >**This is the solution.**
 
 As you can see here I have used the series of **sine and cosine expansion**(with $an=0$), but you can also expand the Square wave using **exponent terms , which is signified by the fact that you can create that using Rotating Phasors(vectors) as shown before.**
+
+***
 
 ### End:
 The Fourier Series is a way of representing certain functions(mostly all periodic functions). From classical physics to Quantum Mechanics, even in data processing, It is used . It is one of the most powerful tool ever created by Maths.
