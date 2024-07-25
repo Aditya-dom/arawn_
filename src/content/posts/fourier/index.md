@@ -25,7 +25,7 @@ where:
 
 This equation is what we call A Linear Partial Differential Equation , what it means is ,
 
-If we have 2 solutions $(\phi1 and \phi2)$ which are different and satisfies a Boundary condition then we can write:
+If we have 2 solutions $(\phi1  and  \phi2)$ which are different and satisfies a Boundary condition then we can write:
 
 A new solution=> $$Y = (a × \phi1) + (b × \phi2)$$
 
