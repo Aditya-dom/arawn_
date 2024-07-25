@@ -12,7 +12,7 @@ slug: fourier-intro
 
 It all starts when Joseph Fourier started to analyze the Heat Equation which looks like:
 
-$$\frac{\partial u}{\partial t} = \alpha \nabla^2 u$$
+### $$\frac{\partial u}{\partial t} = \alpha \nabla^2 u$$
 
 > Here T represent Temperature at any position x at time t
 
@@ -98,7 +98,7 @@ $$b_n = \frac{2}{T} \int_{c}^{c+T} f(t) \sin\left(n \omega (t - c)\right) \, dt 
 ![](./stepfunction.gif)
 > Triangular Wave formation using just pure sine waves
 
-***The GIF where the Square wave(Step Function for a particular case) or Triangular wave is formed as an example of this series. As you can see we are just adding pure waves with certain frequency and amplitude. They are just waves and not have any circles in it.**
+**The GIF where the Square wave(Step Function for a particular case) or Triangular wave is formed as an example of this series. As you can see we are just adding pure waves with certain frequency and amplitude. They are just waves and not have any circles in it.**
 
 In these $2$ equations $a0$, an and bn are called Fourier Constants and are given by
 
@@ -223,6 +223,7 @@ If you want to make any drawing using epicycles, [here](https://github.com/Adity
 > I have written this [Sketch](https://aditya-dom.github.io/fourier_circles/) try it out to draw circular Fourier Series.
 (As an example see the screenshot)
 
+>> I'm Batman 🦇
 ![](./batman1.png)
 ![](./batman2.png)
 >Upper one is the Drawing and Lower one is the Series Breakdown to circle
