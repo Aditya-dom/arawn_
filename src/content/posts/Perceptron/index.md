@@ -10,7 +10,7 @@ slug: MultilayerPerceptron-intro
 ## Introduction
 
 Machine learning is becoming one of the most revolutionary techniques in data science, allowing us to find nonlinear relationships between features and use it to predict new samples. One of the simpler methods in machine learning is the Multilayer Perceptron. In this article, I will discuss the concept behind the multilayer perceptron, and show you how you can build your own multilayer perceptron in Python without the popular `scikit-learn` library. I feel that building the multilayer perceptron from scratch without the libraries allows us to get a deeper understanding of how ideas such as backpropagation and feed forward work. So, I have added both of them in folder `MLP_from_Srcatch`, which contains the notebook [`MLP.ipynb`](https://github.com/Aditya-dom/PerceptronPulse/blob/main/MLP_from_Scratch/MLP.ipynb) where I built the perceptron from scratch without using any library and I **highly** recommend reading (at least) [chapters 1 & 2 of the free online book: Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) for a more complete discussion and in `MLP.py` & `test.py` where I've used numpy and pandas only.
-The whole code can be found in my Github: [Perceptron](https://github.com/Aditya-dom/PerceptronPulse)
+The whole code can be found in my Github: [PerceptronPulse](https://github.com/Aditya-dom/PerceptronPulse)
 
 >> Question: Why should I read your blog?
 
