@@ -1,5 +1,5 @@
 ---
-title: "Perceptron Power: The Secret Sauce of Neural Network."
+title: Perceptron Power:-The Secret Sauce of Neural Network.
 published: 2024-07-28 
 description: 
 image: "./Neural_Networks_cover.jpg"
