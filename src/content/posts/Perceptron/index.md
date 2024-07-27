@@ -101,15 +101,15 @@ It is time to discuss the most important aspect of any MLP, it’s backpropagati
 Backpropagation relies primarily on the chain rule. We want to find out how changing the weights in a particular neuron affects the pre-defined cost function. Since we have a function that brings us from the set of weights to the cost function, we are allowed to differentiate with respect to the weights. The issue is that we do not have the explicit solution to this function from weights to cost function, so we need to make use of the chain rule to differentiate ‘step-by-step’:
 
                    
-$$\frac{\partial C}{\partial w_1} = \frac{\partial C}{\partial y_2} \frac{\partial y_2}{\partial z_2} \frac{\partial z_2}{\partial w_1}$$
+### $$\frac{\partial C}{\partial w_1} = \frac{\partial C}{\partial y_2} \frac{\partial y_2}{\partial z_2} \frac{\partial z_2}{\partial w_1}$$
 
 Each of the constituents of the chain rule derivative is known. Hence this greatly simplifies the calculation of gradient of the cost function required for the backpropagation. Now the gradient becomes:
 
-$$\nabla C = \left\langle \frac{\partial C}{\partial w_0}, \ldots, \frac{\partial C}{\partial w_n} \right\rangle$$
+### $$\nabla C = \left\langle \frac{\partial C}{\partial w_0}, \ldots, \frac{\partial C}{\partial w_n} \right\rangle$$
 
 with each of the components known. The change in weights for each training sample is:
 
-$$\Delta w = -\eta \nabla C$$
+### $$\Delta w = -\eta \nabla C$$
 
 
 where $\eta$ is the learning rate, a hyperparameter that can be used to change the rate at which the weights change. This is usually set to small values until further optimisation of the hyperparameter is done. Now that we are equipped with the knowledge of how backpropagation works, we are able to write it in code.
