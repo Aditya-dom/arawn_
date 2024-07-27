@@ -1,7 +1,7 @@
 ---
 title: Perceptron Power:-The Secret Sauce of Neural Network.
 published: 2024-07-28 
-description: 
+description: How Multilayer perceptron (MLPs) can transfrom your AI projects. Learn the ins and outs of these powerful Neural Networks and elevate your ML game.
 image: "./Neural_Networks_cover.jpg"
 category: Programming
 tags: ["Programming", "Mathematics"]
