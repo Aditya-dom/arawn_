@@ -145,5 +145,5 @@ As you can tell, the hardest part about writing backpropagation in code is handl
 ## Conclusion
 Writing a multilayer perceptron program is very fun, but the actual functionality is not optimised. Preexisting libraries such as keras use various tools to optimise their models. So if you want to create machine learning and neural network models from scratch, do it as a form of coding practice and as a way to improve your understanding of the model itself.
 
->> Have Nice Day Man!
+>> Have a Nice Day Man!
 
