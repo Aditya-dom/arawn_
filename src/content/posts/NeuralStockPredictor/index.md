@@ -77,6 +77,8 @@ preprocessing.get_test(seq_len)
 
 ```
 
+## MLP vs LSTM models
+
 ![](./MLP-vs-LSTM-model-architecture.png)
 > MLP vs LSTM (model-architecture)
 
