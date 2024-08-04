@@ -88,7 +88,7 @@ The key principle here is that the data is that although independent, it is **id
 ### Roadmap
 This is the first of many articles that go through the design and concepts behind Quant_OptimalPortfolio:
 
-1 - Detecting Market Invariants
-2 - Estimating the Distribution of Market Invariants
-3 - Optimising Allocations in Portfolio using the Estimates
+1. Detecting Market Invariants
+2. Estimating the Distribution of Market Invariants
+3. Optimising Allocations in Portfolio using the Estimates
 ***
