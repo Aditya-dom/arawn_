@@ -64,17 +64,13 @@ To download the stock price data, we use `pandas_datareader` which after a while
 The goal for our training dataset is to have rows of a given length (the number of prices used to predict) along with the correct prediction to evaluate our model against. I have given the user the option of choosing how much of the stock price data you want to use for your training data when calling the `Preprocessing` class. Generating the training data is done quite simply using `numpy.arrays` and a for loop. You can perform this by running:
 
 ```python
-
 preprocessing.get_train(seq_len)
-
 ```
 ### Preparing Test Dataset
 The test dataset is prepared in precisely the same way as the training dataset, just that the length of the data is different. This is done with the following code:
 
 ```python
-
 preprocessing.get_test(seq_len)
-
 ```
 
 ## MLP vs LSTM models
@@ -95,9 +91,7 @@ The benefit of using a Long Short Term Memory neural network is that there is an
 My backtest system is simple in the sense that it only evaluates how well the model predicts the stock price. It does not actually consider how to trade based on these predictions (that is the topic of developing trading strategies using this model). To run just the backtesting, you will need to run
 
 ```python
-
 back_test(strategy, seq_len, ticker, start_date, end_date, dim)
-
 ```
 The `dim` variable is the dimensions of the data set you want and it is necessary to successfully train the models.
 
@@ -105,12 +99,10 @@ The `dim` variable is the dimensions of the data set you want and it is necessar
 Now that your model has been trained and backtested, we can use it to make stock price predictions. In order to make stock price predictions, you need to download the current data and use the `predict` method of `keras` module. Run the following code after training and backtesting the model:
 
 ```python
-
 data = pdr.get_data_yahoo("NVDA", "2020-12-19", "2024-07-03")
 stock = data["Adj Close"]
 X_predict = np.array(stock).reshape((1, 10)) / 200
 print(model.predict(X_predict)*200)
-
 ```
 
 ## Extensions
