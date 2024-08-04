@@ -1,5 +1,5 @@
 ---
-title: Market constant : "Demand & Supply", Can there really be predictive power in market data?
+title: Market constant-:"Demand & Supply", Can there really be predictive power in market data?
 published: 2024-08-04 
 description: A market invariant is a fundamental principle markets, such as supply and demand dynamics or statistical price patterns. These invariants are essential for developing robust trading strategies.
 image: "./cover.jpg"
