@@ -37,18 +37,18 @@ Since discussing all three methods in one article will make the article way too 
 ## Nonparametric
 Nonparametric estimators are just as the name suggests. These estimators do not restrict themselves to any particular parameterized distribution. Instead, the data alone is considered and the distribution is modeled as an empirical distribution. An empirical distribution is essentially a distribution that has a kernel function at each data point. This kernel function is classical defined to be the Dirac delta function. However, due to the difficulty of doing calculus with Dirac delta functions, modern implementations consider the Gaussian kernel. In other words, the empirical distribution is a distribution that for every data point
 
-$$⁠\(\hat{f}(x) = \frac{1}{n} \sum_{i=1}^{n} K(x - x_i)\)$$
+⁠\($$\hat{f}(x) = \frac{1}{n} \sum_{i=1}^{n} K(x - x_i)\$$)
 
 In our case, we let the kernel function K be the Gaussian, so
 
-$$\(\hat{f}(x) = \frac{1}{n} \sum_{i=1}^{n} e^{\frac{(x-x_i)^2}{\gamma}}\)$$
+\($$\hat{f}(x) = \frac{1}{n} \sum_{i=1}^{n} e^{\frac{(x-x_i)^2}{\gamma}}\$$)
 
 
 Where the parameter gamma is considered to be the smoothing parameter, which can be thought of as the spread of the Gaussian at each data point. It is easily proven that this empirical distribution will yield a mean and variance equal to the sample mean and variance. Hence,
 
-$$\(\hat{\mu} = \frac{1}{n} \sum_{i=1}^{n} x_i\)$$
+\($$\hat{\mu} = \frac{1}{n} \sum_{i=1}^{n} x_i\$$)
 
-$$ ⁠\(\hat{\Sigma} = \frac{1}{n} \sum_{i=1}^{n} (x_i - \hat{\mu})(x_i - \hat{\mu})^T\)$$
+⁠\($$\hat{\Sigma} = \frac{1}{n} \sum_{i=1}^{n} (x_i - \hat{\mu})(x_i - \hat{\mu})^T\$$)
 
 The empirical distribution seems simple enough to understand. This can be implemented as
 
