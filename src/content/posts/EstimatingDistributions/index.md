@@ -78,7 +78,7 @@ The benefit of using the nonparametric estimator is that there are no assumption
 
 One possible extension if giving the data at different periods of time some notion of weight. In other words, we value the data from different points in time differently. An example of this is the exponentially weighted covariance estimator. I recently read about this in this article and it seems promising. The concept is similar to pandas.ewm where the each previous time step is given a smaller weight, usually to the power of some number less than one.
 
-$$\(\hat{\Sigma} = \frac{\alpha}{n} \sum_{i=1}^{n} (1 - \alpha)^{i-1} (x_i - \hat{\mu})(x_i - \hat{\mu})^T\)$$
+$$\hat{\Sigma} = \frac{\alpha}{n} \sum_{i=1}^{n} (1 - \alpha)^{i-1} (x_i - \hat{\mu})(x_i - \hat{\mu})^T\$$
 
 Which can be implemented as follows
 
