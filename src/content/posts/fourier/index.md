@@ -3,7 +3,7 @@ title: What is Fourier Series? and what makes it so remarkable?
 published: 2024-07-25 
 description: Regarding the research of d’Alembert and Euler could one not add that if they knew this expansion, they made but a very imperfect use of it. They were both persuaded that an arbitrary and discontinuous function could never be resolved in series of this kind, and it does not even seem that anyone had developed a constant in cosines of multiple arcs, that first problem which I had to solve in the theory of heat. -—J. Fourier
 image: "./fourier_cover.png"
-category: Programming
+category: Mathematics
 tags: ["Mathematics", "Quant"]
 slug: fourier-intro
 ---
