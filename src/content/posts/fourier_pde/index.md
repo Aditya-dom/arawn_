@@ -24,7 +24,9 @@ Deriving the wave equation is not as complicated as it seems. Consider the follo
 
 We know from Newton’s Second Law that
 
-### $$F = ma$$
+$$
+\mathbf{F} = m\mathbf{a}
+$$
 
 For the string section above, this can be rewritten as
 
