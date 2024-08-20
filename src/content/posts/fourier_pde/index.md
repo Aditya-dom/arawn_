@@ -70,7 +70,7 @@ $$
 
 One important note is that the c in the equation above is the wave velocity, and we can see that it only depends on the density of the rope and tension at which it is pulled.
 
-Solving the Wave Equation on a membrane
+## Solving the Wave Equation on a membrane
 Now we can move on to solve the wave equation on a membrane. In two dimensional polar coordinates, the laplacian in the wave equation can be written as
 
 $$
@@ -95,47 +95,55 @@ Since the expressions are functions of different variables, yet equal, we can co
 
 We start solving the time equation:
 
-$$w''(t) + c^2\lambda^2 w(t) = 0
+$$
+w''(t) + c^2\lambda^2 w(t) = 0
 $$
 
 From basic ODEs, we know the solution to this is
 
-$$w(t) = C_1 \cos(\lambda c t) + C_2 \sin(\lambda c t)
+$$
+w(t) = C_1 \cos(\lambda c t) + C_2 \sin(\lambda c t)
 $$
 
 Where C1 and C2 are constants determined by the initial conditions. Those of you with a keen eye might see that this solution looks awfully similar to the Fourier Series, and yes, we will be using it to solve for the constants.
 
 Now, given the above solution, we rewrite the wave equation as
 
-$$r^2 \frac{z''(r)}{z(r)} + r \frac{z'(r)}{z(r)} + \lambda^2 r^2 = -\frac{v''(\theta)}{v(\theta)} = n^2
+$$
+r^2 \frac{z''(r)}{z(r)} + r \frac{z'(r)}{z(r)} + \lambda^2 r^2 = -\frac{v''(\theta)}{v(\theta)} = n^2
 $$
 
 
 where I have introduced n² as a new constant. Now we are in position to solve the angular component of the wave equation
 
-$$v''(\theta) + n^2 v(\theta) = 0
+$$
+v''(\theta) + n^2 v(\theta) = 0
 $$
 
 Again this is a trivial ODE with solution
 
-$$v(\theta) = D_1 \cos(n\theta) + D_2 \sin(n\theta)
+$$
+v(\theta) = D_1 \cos(n\theta) + D_2 \sin(n\theta)
 $$
 
 
 Finally, using all the above information, we construct the following form of the wave equation
 
-$$r^2 z''(r) + r z'(r) + (\lambda^2 r^2 - n^2) z(r) = 0
+$$
+r^2 z''(r) + r z'(r) + (\lambda^2 r^2 - n^2) z(r) = 0
 $$
 
 Now we use the following transformation
 
-$$R^2 z''(R) + R z'(R) + (R^2 - n^2) z(R) = 0
+$$
+R^2 z''(R) + R z'(R) + (R^2 - n^2) z(R) = 0
 $$
 
 This is the famous Bessel differential equation. Although there is no analytic solution to this differential equation, we construct a solution called the Bessel function, $J(R)$ and $Y(R)$ of order n, that solves this differential equation. The Bessel function is a well studied function and with very interesting properties. For now, we only focus on solving this differential equation. We get the solution as
 
 
-$$z(r) = A_1 J_n(\lambda r) + A_2 Y_n(\lambda r)
+$$
+z(r) = A_1 J_n(\lambda r) + A_2 Y_n(\lambda r)
 $$
 
 Therefore, the overall solution to the wave equation for a vibrating membrane is
