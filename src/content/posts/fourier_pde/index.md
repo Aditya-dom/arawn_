@@ -28,37 +28,50 @@ We know from Newton’s Second Law that
 
 For the string section above, this can be rewritten as
 
-$$F = \rho \Delta x \frac{\partial^2 u}{\partial t^2}$$
+$$
+F = \rho \Delta x \frac{\partial^2 u}{\partial t^2}
+$$
 
 Now we need to calculate the forces acting on the string section
 
-$$T(x, t) \cos(\theta(x, t)) = T(x + \Delta x, t) \cos(\theta(x + \Delta x, t)) = \phi$$
+$$
+T(x, t) \cos(\theta(x, t)) = T(x + \Delta x, t) \cos(\theta(x + \Delta x, t)) = \phi
+$$
 
 This is true because the string does not move in the horizontal direction. Since the resultant force is upward,
 
-$$F = T(x + \Delta x, t) \sin(\theta(x + \Delta x, t)) - T(x, t) \sin(\theta(x, t))$$
+$$
+F = T(x + \Delta x, t) \sin(\theta(x + \Delta x, t)) - T(x, t) \sin(\theta(x, t))
+$$
 
 With some trigonometry, this becomes
 
-$$F = \phi \left(\tan(\theta(x + \Delta x, t)) - \tan(\theta(x, t))\right)$$
+$$
+F = \phi \left(\tan(\theta(x + \Delta x, t)) - \tan(\theta(x, t))\right)
+$$
 
 Since tangent of the angle is just the gradient at that point, we get
 
-$$F = \phi \left(\frac{\partial u}{\partial x}(x + \Delta x, t) - \frac{\partial u}{\partial x}(x, t)\right)$$
+$$
+F = \phi \left(\frac{\partial u}{\partial x}(x + \Delta x, t) - \frac{\partial u}{\partial x}(x, t)\right)
+$$
 
 Combining the equations,
 
-$$F = \phi \left( \frac{\partial u}{\partial x}(x + \Delta x, t) - \frac{\partial u}{\partial x}(x, t) \right)
+$$
+F = \phi \left( \frac{\partial u}{\partial x}(x + \Delta x, t) - \frac{\partial u}{\partial x}(x, t) \right)
 $$
 
-$$\frac{\frac{\partial u}{\partial x}(x + \Delta x, t) - \frac{\partial u}{\partial x}(x, t)}{\Delta x} = \frac{\rho}{\phi} \frac{\partial^2 u}{\partial t^2}
+$$
+\frac{\frac{\partial u}{\partial x}(x + \Delta x, t) - \frac{\partial u}{\partial x}(x, t)}{\Delta x} = \frac{\rho}{\phi} \frac{\partial^2 u}{\partial t^2}
 $$
 
 
 Taking the limit as \( $$\Delta x$$ \) goes to zero, we get the famous wave equation:
 
 
-$$\frac{\partial^2 u}{\partial x^2} = \frac{\rho}{\phi} \frac{\partial^2 u}{\partial t^2}
+$$
+\frac{\partial^2 u}{\partial x^2} = \frac{\rho}{\phi} \frac{\partial^2 u}{\partial t^2}
 $$
 
 This can also be generalised to higher dimensions,
@@ -160,3 +173,4 @@ Instead of just solving for the coefficients, why not think about it geometrical
 ## Conclusion
 This concludes the first part of our investigation into how we can use Fourier Analysis to solve PDEs. In the next post, I will talk about how we can use the Fourier Transform to find a more generalised method of solving PDEs which turns out to be very useful.
 
+***
