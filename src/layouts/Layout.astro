@@ -1,5 +1,6 @@
 ---
 import GlobalStyles from '@components/GlobalStyles.astro'
+import GoogleAnalytics from '@components/GoogleAnalytics.astro'
 import '@fontsource/roboto/400.css'
 import '@fontsource/roboto/500.css'
 import '@fontsource/roboto/700.css'
@@ -63,7 +64,8 @@ const siteLang = lang.replace('_', '-')
 <!DOCTYPE html>
 <html lang={siteLang} class="bg-[var(--page-bg)] transition text-[14px] md:text-[16px]">
 	<head>
-
+		<!--Google Analytics Code -->
+        <GoogleAnalytics />
 		<title>{pageTitle}</title>
 
 		<meta charset="UTF-8" />
