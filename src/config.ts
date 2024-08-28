@@ -18,6 +18,11 @@ export const siteConfig: SiteConfig = {
     enable: true,
     src: 'assets/images/demo-banner.png',
     position: 'center',
+    credit: {
+      enable: false,
+      text: '',
+      url: ''
+    }
   },
   favicon: [
     // Leave this array empty to use the default favicon
