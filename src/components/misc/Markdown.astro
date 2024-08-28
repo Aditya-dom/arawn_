@@ -1,11 +1,11 @@
 ---
-import '@fontsource-variable/jetbrains-mono';
-import '@fontsource-variable/jetbrains-mono/wght-italic.css';
+import '@fontsource-variable/jetbrains-mono'
+import '@fontsource-variable/jetbrains-mono/wght-italic.css'
 
 interface Props {
-    class: string;
+  class: string
 }
-const className = Astro.props.class;
+const className = Astro.props.class
 ---
 <div data-pagefind-body class=`prose dark:prose-invert prose-base max-w-none custom-md ${className}`>
     <!--<div class="prose dark:prose-invert max-w-none custom-md">-->
@@ -46,12 +46,13 @@ const className = Astro.props.class;
       wrapper.appendChild(codeBlock);
       wrapper.appendChild(copyButton);
 
-      let timeout;
+      let timeout: ReturnType<typeof setTimeout>;
       copyButton.addEventListener("click", async () => {
         if (timeout) {
             clearTimeout(timeout);
         }
         let text = codeBlock?.querySelector("code")?.innerText;
+        if (text === undefined) return;
         await navigator.clipboard.writeText(text);
         copyButton.classList.add("success");
         timeout = setTimeout(() => {
@@ -441,22 +442,21 @@ const className = Astro.props.class;
     opacity: 0.7
     transition: opacity 0.15s ease-in-out
 
-    .gc-description, .gc-infobar
+    .gc-description, .gc-infobar, .gc-avatar
       background-color: var(--tw-prose-body)
       color: transparent
       opacity: 0.5;
-      border-radius: 0.5rem
       animation: pulsate 2s infinite linear
       user-select: none
 
       &:before
         background-color: transparent
 
-    .gc-avatar
-      display: none
-
     .gc-repo
       margin-left: -0.1rem
+
+    .gc-description, .gc-infobar
+      border-radius: 0.5rem
 
   a.card-github.fetch-error
     pointer-events: all
