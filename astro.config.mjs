@@ -1,4 +1,4 @@
-import db from '@astrojs/db';
+import partytown from "@astrojs/partytown";
 import sitemap from '@astrojs/sitemap';
 import svelte from '@astrojs/svelte';
 import tailwind from '@astrojs/tailwind';
@@ -13,12 +13,7 @@ import rehypeKatex from 'rehype-katex';
 import rehypeSlug from 'rehype-slug';
 import remarkDirective from 'remark-directive'; /* Handle directives */
 import remarkGithubAdmonitionsToDirectives from 'remark-github-admonitions-to-directives';
-import remarkMath from 'remark-math';
-import { AdmonitionComponent } from './src/plugins/rehype-component-admonition.mjs';
-import { GithubCardComponent } from './src/plugins/rehype-component-github-card.mjs';
-import { parseDirectiveNode } from './src/plugins/remark-directive-rehype.js';
-import { remarkReadingTime } from './src/plugins/remark-reading-time.mjs';
-import partytown from "@astrojs/partytown";
+import remarkMath from 'remark-math';/plugins/rehype-component-admon/plugins/rehype-component-githuplugins/remark-directive-rehypelugins/remark-reading-time.mjs';
 const oklchToHex = str => {
   const DEFAULT_HUE = 250;
   const regex = /-?\d+(\.\d+)?/g;
