@@ -43,7 +43,7 @@ importers:
         specifier: ^2.3.0
         version: 2.3.0(@types/node@20.14.12)(rollup@2.79.1)(sass@1.77.8)(stylus@0.63.0)(typescript@5.5.4)
       astro-icon:
-        specifier: 1.1.0
+        specifier: ^1.1.0
         version: 1.1.0
       colorjs.io:
         specifier: ^0.5.2
@@ -91,7 +91,7 @@ importers:
         specifier: ^2.13.0
         version: 2.13.0
       sharp:
-        specifier: ^0.33.4
+        specifier: ^0.33.0
         version: 0.33.4
       svelte:
         specifier: ^4.2.18
@@ -6070,7 +6070,7 @@ snapshots:
       '@antfu/install-pkg': 0.1.1
       '@antfu/utils': 0.7.10
       '@iconify/types': 2.0.0
-      debug: 4.3.5
+      debug: 4.3.6
       kolorist: 1.8.0
       local-pkg: 0.5.0
       mlly: 1.7.1
@@ -7569,7 +7569,7 @@ snapshots:
 
   extract-zip@2.0.1:
     dependencies:
-      debug: 4.3.5
+      debug: 4.3.6
       get-stream: 5.2.0
       yauzl: 2.10.0
     optionalDependencies:
