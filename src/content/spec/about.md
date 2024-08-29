@@ -1,10 +1,12 @@
 # About
-Hello, I'm Aditya, a first-year undergraduate student at IET Lucknow. My academic journey is marked by a keen interest in cutting-edge technologies, particularly within the realms of Deep Learning and Quantitative Research and Trading. Currently, I am engaged in independent research on Large Language Models (LLMs) using platforms like [Hugging Face](https://huggingface.co/) and [OpenAI's GPT models (GPT-4 Turbo)](https://openai.com/research/gpt-4), including [ollama.v.llama2](https://ollama.com/library/llama2) .
+I currently wear multiple hats across Maths/ML/Quant at [**Valley Town**](https://valleytowncapital.com/) & [Finzie](https://www.getfinzie.com/). These days I am generally interested in Quant ML, and specifically the application of ML to unsolved problems in Quantitative Finance!
 
-In addition to my academic pursuits, I bring a practical dimension to my passion through hands-on experiences. I have delved into the world of algorithmic trading with a focus on quantitative research & trading. My exposure includes valuable experience at [Density Exchange](https://density.exchange/), where I actively participated in algorithmic trading. This experience has not only sharpened my analytical skills but has also given me insights into the dynamic landscape of financial markets.
+I also hold an honorary _Bug Hunter_ tag for finding vulnerabilities in Snapchat & Uber. In past lives, I previously wore the same multitude of hats at [**Density Exchange**](https://density.exchange/), [**Refonte Infini**](https://www.refonteinfini.com/), and [**Afame Technologies**](https://afame.in/), and did my B.Tech at the [**Institute of Engineering and Technology**](https://www.ietlucknow.ac.in/).
 
-My passion extends beyond the theoretical, as I actively explore the practical applications of my knowledge. I have a particular inclination towards Web Development, seeking to blend creativity with functionality. Additionally, I find joy and challenge in Competitive Coding, where I continually hone my problem-solving skills and algorithmic thinking.
+**In my work, I’m probably best known for two things:**
 
-As I embark on my academic and research endeavors, I am eager to contribute to the ever-evolving landscape of technology and make meaningful strides in the fields that captivate my interest. My multifaceted interests, coupled with my practical experience in algorithmic trading, reflect not only my academic pursuits but also my commitment to staying at the forefront of innovation and applying my skills in real-world scenarios.
+Open-source software; in particular, in the Rust and Quantitative ecosystems. See my [**software page**](https://arawn.live/) and my [**GitHub page**](https://github.com/Aditya-dom).
 
-I look forward to leveraging my academic foundation, research initiatives, and diverse interests to contribute meaningfully to the dynamic world of technology and make a positive impact.
+When I’m not staring at code, I find joy in playing cricket, hanging out with my dog, crafting melodies with my guitar, sculpting my physique at the gym, or probably be found on a solo trip.
+
+I still do some academic work on the side; feel free to contact me with collaboration requests.
