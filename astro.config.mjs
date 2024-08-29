@@ -16,8 +16,8 @@ import remarkMath from "remark-math"
 import { AdmonitionComponent } from "./src/plugins/rehype-component-admonition.mjs"
 import { GithubCardComponent } from "./src/plugins/rehype-component-github-card.mjs"
 import {parseDirectiveNode} from "./src/plugins/remark-directive-rehype.js";
-import {remarkExcerptxcerpexcerpexcerpexcerpexcerpexcerpt.js;
-import { remarkReadingTime gTime gTime gTime gTime gTimereading-time.mjsig-time.mjsig-time.mjsig-time.mjsig-time.mjsig-time.mjsig-time.mjsig-time.mjsig-time.mjsig-time.mjs"
+import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs"
+import {remarkExcerpt} from "./src/plugins/remark-excerpt.js";
 
 const oklchToHex = (str) => {
   const DEFAULT_HUE = 250
