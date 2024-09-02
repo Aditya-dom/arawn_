@@ -1,3 +1,4 @@
+import partytown from '@astrojs/partytown'
 import sitemap from '@astrojs/sitemap'
 import svelte from '@astrojs/svelte'
 import tailwind from '@astrojs/tailwind'
@@ -49,6 +50,7 @@ export default defineConfig({
       updateHead: true,
       updateBodyClass: false,
       globalInstance: true,
+      integrations: [partytown()],
     }),
     icon({
       include: {
