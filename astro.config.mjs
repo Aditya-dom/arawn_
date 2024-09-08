@@ -5,6 +5,7 @@ import tailwind from '@astrojs/tailwind'
 import swup from '@swup/astro'
 import Compress from 'astro-compress'
 import icon from 'astro-icon'
+import svgLoader from 'astro-svg-loader'
 import { defineConfig } from 'astro/config'
 import Color from 'colorjs.io'
 import rehypeAutolinkHeadings from 'rehype-autolink-headings'
@@ -121,6 +122,7 @@ export default defineConfig({
     ],
   },
   vite: {
+    plugins: [svgLoader()],
     build: {
       rollupOptions: {
         onwarn(warning, warn) {
