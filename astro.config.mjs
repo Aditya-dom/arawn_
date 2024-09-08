@@ -54,11 +54,28 @@ export default defineConfig({
     }),
     icon({
       include: {
-        mdi: ['*'],
         'material-symbols': ['*'],
         'fa6-brands': ['*'],
         'fa6-regular': ['*'],
         'fa6-solid': ['*'],
+        svgoOptions: {
+          multipass: true,
+          plugins: [
+            {
+              name: 'preset-default',
+              params: {
+                overrides: {
+                  // customize default plugin options
+                  inlineStyles: {
+                    onlyMatchedOnce: false,
+                  },
+                  // or disable plugins
+                  removeDoctype: false,
+                },
+              },
+            },
+          ],
+        },
       },
     }),
     svelte(),
