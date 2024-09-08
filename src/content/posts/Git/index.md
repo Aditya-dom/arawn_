@@ -8,9 +8,6 @@ tags: [Programming]
 slug: git-tutorial
 ---
 
-::github{repo="aditya-dom/FFS"}
-::github{repo="Fabrizz/MMM-OnSpotify"}
-
 # What is Git and why should I care?
 Git is a distributed version-control system - i.e. it records the changes made to files in a repository of code as a series of snapshots called _commits_, stored on many servers. Think of this like your standard cloud backup on steroids - not only are you able to restore your code in event of a crash, but you can also roll back your code to any of the snapshots if your code breaks. It is also easy for you to collaborate with others - again just like how you can work on the same Google Docs file with multiple people, multiple developers can simultaneously edit the same repository and record their individual changes.
 
