@@ -5,8 +5,6 @@ import tailwind from '@astrojs/tailwind'
 import swup from '@swup/astro'
 import Compress from 'astro-compress'
 import icon from 'astro-icon'
-import svgLoader from 'astro-svg-loader'
-import { defineConfig } from 'astro/config'
 import Color from 'colorjs.io'
 import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 import rehypeComponents from 'rehype-components' /* Render the custom directive content */
@@ -15,6 +13,7 @@ import rehypeSlug from 'rehype-slug'
 import remarkDirective from 'remark-directive' /* Handle directives */
 import remarkGithubAdmonitionsToDirectives from 'remark-github-admonitions-to-directives'
 import remarkMath from 'remark-math'
+import svg from 'vite-plugin-svg'
 import { AdmonitionComponent } from './src/plugins/rehype-component-admonition.mjs'
 import { GithubCardComponent } from './src/plugins/rehype-component-github-card.mjs'
 import { parseDirectiveNode } from './src/plugins/remark-directive-rehype.js'
@@ -122,7 +121,7 @@ export default defineConfig({
     ],
   },
   vite: {
-    plugins: [svgLoader()],
+    plugins: [svg()],
     build: {
       rollupOptions: {
         onwarn(warning, warn) {
