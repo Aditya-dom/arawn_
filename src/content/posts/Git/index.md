@@ -63,8 +63,8 @@ Git stores data as a series of lightweight “snapshots” known as commits - th
 
 So we can refer to a commit either by its checksum, or its relation to HEAD, e.g.`HEAD~4` refers to the commit 4 commits before the HEAD commit.
 
-The Git File System
-![](./git-file-system.webp)
+
+<img src="./file-system.svg" alt="The Git File System" />
 
 Git keeps track of files in 3 main sections:
 
