@@ -121,6 +121,7 @@ export default defineConfig({
     ],
   },
   vite: {
+    plugins: [svgLoader()],
     build: {
       rollupOptions: {
         onwarn(warning, warn) {
