@@ -54,6 +54,7 @@ export default defineConfig({
     }),
     icon({
       include: {
+        mdi: ['*'],
         'material-symbols': ['*'],
         'fa6-brands': ['*'],
         'fa6-regular': ['*'],
