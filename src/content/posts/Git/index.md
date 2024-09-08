@@ -57,14 +57,14 @@ To initialise a .git repository you can use `git init` or, if you want a copy of
 
 ## Git Commit History
 
-<img src="./commit-history.svg" alt="commit-hist" />
+![](./commit-history.png)
 
 Git stores data as a series of lightweight “snapshots” known as commits - these store the state of the filesystem at that time as well as a pointer to the previous commit(s). Each commit has a unique _checksum_ - the ID Git uses to refer to it. To keep track of the history, Git has a HEAD pointer that points to the first commit (we follow the pointer chain back to see previous commits).
 
 So we can refer to a commit either by its checksum, or its relation to HEAD, e.g.`HEAD~4` refers to the commit 4 commits before the HEAD commit.
 
 
-<img src="./file-system.svg" alt="The Git File System" />
+.[](./file-system.png)
 
 Git keeps track of files in 3 main sections:
 
@@ -113,7 +113,7 @@ If we pass a file path, `git reset <commit> <file/dir>` it limits effect of `res
 
 Finally, `git rm <file>` untracks the file and deletes it from working directory, the option `--cached` will untrack a file but not delete it from the working directory.
 
-<img src="./manipulate-files.svg" alt="mf" />
+
 
 ## Ignoring files
 Often we don’t want Git to track all of our files in our repository. This might include:
@@ -200,7 +200,7 @@ These commands deal with remote branches (see branching section)
 Git push pull diagram
 
 
-<img src="./push-pull.svg" alt="Push_Pull" />
+![](./push-pull.png)
 
 Multiple people can thus pull changes from the server, make changes to their local copies, and then push the changes to the remote server, allowing you to collaborate on a single repository.
 
@@ -212,7 +212,7 @@ This leads us to a key feature of Git - branching - the ability to work on diver
 
 We now have an overall HEAD pointer (bolded to differentiate it) and a HEAD pointer associated with each branch. Switching branches thus only involves moving HEAD to the respective branch’s HEAD pointer.
 
-<img src="./branching.png" alt="branching" />
+![](./branching.png)
 
 ### Standard commands:
 
@@ -242,7 +242,7 @@ So now that we have discussed branches and how to switch between them, it is wor
 ### Merging
 Merging involves creating a new merge commit - this is based off a common ancestor commit of the two branches, and it points to both HEADs of branches as its previous commits. We do this by switching to the base branch, and then run git merge <topic branch>
 
-<img src="./merge.svg" alt="merging" />
+![](./merge.png)
 
 If both branches alter the same part of a file then we have a merge conflict - this is where Git doesn’t know which version to keep, so you have to resolve it yourself. To see which files have a conflicting update you can run `git status`.
 
@@ -258,12 +258,14 @@ Once you open the file(s) with a merge conflict you will see conflict-resolution
 
 Replace everything in that block with the version you want to keep and stage the file to resolve that conflict. Once you’ve resolved all merge conflicts you can then `git commit` to finalise the merge.
 
-<img src="./merge-conflict.svg" alt="mergeconflict" />
+
+
 
 ### Rebasing
 Rather than combine the two branches with a merge commit, rebasing instead _replays_ the commits of the topic branch as a series of new commits on top of the base branch, resulting in a cleaner serial history.
 
-<img src="./rebase.svg" alt="rebasing" />
+
+![](./rebase.png)
 
 To rebase we run `git rebase <base branch> <topic branch>` which replays the topic branch’s changes on top of the base branch, with the topic branch’s HEAD pointer pointing to the most recently replayed commit. We then _fast-forward_ the base branch’s HEAD by first switching to that branch using `git checkout <base branch>` and then running `git merge <topic branch>`.
 
@@ -311,7 +313,7 @@ A `*` next to a file means its status will be changed by the command (staged/uns
 
 Note `git add -p` also allows you to patch wihout being in the interactive shell.
 
-<img src="./interactive-staging.svg" alt="staging" />
+
 
 ## Advanced: Edit your Git History
 To gain finer control over your commit history in your local branch `git rebase -i HEAD~n` opens an interactive shell for rebasing a set of the last `n` commits listed from oldest to newest (i.e. the order in which they will be rebased)- it allows you to “modify history”, but note the original commits can’t be modified, only _rebased_.
@@ -326,11 +328,13 @@ Once done editing, run `git rebase --continue`.
 ### Rewrite multiple commits
 Sometimes you might want to rewrite multiple commits - you can do this using `git filter-branch`. For example, to remove a file that someone accidentally committed - you can do this using `git filter-branch --tree-filter 'rm -f <file_name>' HEAD` - however note this means that the entire history is rebased.
 
-<img src="./squash.svg" alt="Squashing" />
+
+![](./squash.png)
 
 When working on a feature for a project, you may make incremental commits in a feature branch whilst working on it for each small sub-feature. However, this has the disadvantage of clogging up the commit history with minor commits, which may be against the contribution guidelines for the project. To get around this, you can _squash_ the raft of minor commits into a larger single commit (using the `pick` command for the first commit and `squash` command for the subsequent commits). Git will apply all changes in a single commit and ask you to edit the overall commit message.
 
-<img src="./interactive-rebase.svg" alt="interactiverebase" />
+
+
 
 ## Cherry Picking
 Rather than merging/rebasing all the commits in a topic branch, you might only want a certain commit, for example I have a `drafts` local branch where I’m working on several potential blog posts, but I may only want to publish one of them. `git cherry-pick <picked commit>` allows you to do just that. We can use `git log <base>..<topic>` to get the specific commits we should choose from.
@@ -339,7 +343,7 @@ Rather than merging/rebasing all the commits in a topic branch, you might only w
 Cherry-picking creates a new commit that only replays the diff introduced in the cherry-picked commit (i.e. the difference between that commit and the previous commit), not the state at that commit.
 :::
 
-<img src="./cherry-pick.svg" alt="cherrypicking" />
+![](./cherry-pick.png)
 
 
 Try on your own:
