@@ -130,6 +130,9 @@ importers:
       '@iconify/svelte':
         specifier: ^4.0.2
         version: 4.0.2(svelte@4.2.18)
+      '@jasikpark/astro-svg-loader':
+        specifier: ^0.2.0
+        version: 0.2.0(astro@4.14.2(@types/node@20.14.12)(lightningcss@1.25.1)(rollup@2.79.1)(sass@1.77.8)(stylus@0.63.0)(terser@5.31.3)(typescript@5.5.4))
       '@rollup/plugin-yaml':
         specifier: ^4.1.2
         version: 4.1.2(rollup@2.79.1)
@@ -1278,6 +1281,12 @@ packages:
   '@isaacs/cliui@8.0.2':
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
     engines: {node: '>=12'}
+
+  '@jasikpark/astro-svg-loader@0.2.0':
+    resolution: {integrity: sha512-s9OSILZ1xvEzH8CiOcz4cd2Q2DPbYQvJT4IyKvx/L5hwyYasE6HHShbkut7H2vqYP73TWMOtz8qE8xyYaGrhbw==}
+    engines: {node: '>18', pnpm: '>=7.9.5'}
+    peerDependencies:
+      astro: ^2.0.0 || ^3.0.0
 
   '@jridgewell/gen-mapping@0.3.5':
     resolution: {integrity: sha512-IzL8ZoEDIBRWEzlCcRhOaCupYyN5gdIK+Q6fbFdPDg6HqX6jpkItn7DFIpW9LQzXG6Df9sA7+OKnq0qlz/GaQg==}
@@ -4519,6 +4528,9 @@ packages:
   ufo@1.5.4:
     resolution: {integrity: sha512-UsUk3byDzKd04EyoZ7U4DOlxQaD14JUKQl6/P7wiX4FNvUfm3XL246n9W5AmqwW5RSFJ27NAuM0iLscAOYUiGQ==}
 
+  ultrahtml@1.5.2:
+    resolution: {integrity: sha512-qh4mBffhlkiXwDAOxvSGxhL0QEQsTbnP9BozOK3OYPEGvPvdWzvAUaXNtUSMdNsKDtuyjEbyVUPFZ52SSLhLqw==}
+
   unbox-primitive@1.0.2:
     resolution: {integrity: sha512-61pPlCD9h51VoreyJ0BReideM3MDKMKnh6+V9L08331ipq6Q8OFXZYiqP6n/tbHx4s5I9uRhcye6BrbkizkBDw==}
 
@@ -6178,6 +6190,11 @@ snapshots:
       strip-ansi-cjs: strip-ansi@6.0.1
       wrap-ansi: 8.1.0
       wrap-ansi-cjs: wrap-ansi@7.0.0
+
+  '@jasikpark/astro-svg-loader@0.2.0(astro@4.14.2(@types/node@20.14.12)(lightningcss@1.25.1)(rollup@2.79.1)(sass@1.77.8)(stylus@0.63.0)(terser@5.31.3)(typescript@5.5.4))':
+    dependencies:
+      astro: 4.14.2(@types/node@20.14.12)(lightningcss@1.25.1)(rollup@2.79.1)(sass@1.77.8)(stylus@0.63.0)(terser@5.31.3)(typescript@5.5.4)
+      ultrahtml: 1.5.2
 
   '@jridgewell/gen-mapping@0.3.5':
     dependencies:
@@ -10147,6 +10164,8 @@ snapshots:
   uc.micro@2.1.0: {}
 
   ufo@1.5.4: {}
+
+  ultrahtml@1.5.2: {}
 
   unbox-primitive@1.0.2:
     dependencies:
