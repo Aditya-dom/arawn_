@@ -212,7 +212,7 @@ This leads us to a key feature of Git - branching - the ability to work on diver
 
 We now have an overall HEAD pointer (bolded to differentiate it) and a HEAD pointer associated with each branch. Switching branches thus only involves moving HEAD to the respective branch’s HEAD pointer.
 
-<img src="./branching.svg" alt="branching" />
+<img src="./branching.png" alt="branching" />
 
 ### Standard commands:
 
