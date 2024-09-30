@@ -113,7 +113,7 @@ If we pass a file path, `git reset <commit> <file/dir>` it limits effect of `res
 
 Finally, `git rm <file>` untracks the file and deletes it from working directory, the option `--cached` will untrack a file but not delete it from the working directory.
 
-
+![](./manu.jpg)
 
 ## Ignoring files
 Often we don’t want Git to track all of our files in our repository. This might include:
@@ -258,7 +258,7 @@ Once you open the file(s) with a merge conflict you will see conflict-resolution
 
 Replace everything in that block with the version you want to keep and stage the file to resolve that conflict. Once you’ve resolved all merge conflicts you can then `git commit` to finalise the merge.
 
-
+![](./merge-conflict.webp)
 
 
 ### Rebasing
@@ -313,6 +313,7 @@ A `*` next to a file means its status will be changed by the command (staged/uns
 
 Note `git add -p` also allows you to patch wihout being in the interactive shell.
 
+![](./git-bash-interactive-split-to-bug-fix_thumb[3].png)
 
 
 ## Advanced: Edit your Git History
@@ -334,7 +335,7 @@ Sometimes you might want to rewrite multiple commits - you can do this using `gi
 When working on a feature for a project, you may make incremental commits in a feature branch whilst working on it for each small sub-feature. However, this has the disadvantage of clogging up the commit history with minor commits, which may be against the contribution guidelines for the project. To get around this, you can _squash_ the raft of minor commits into a larger single commit (using the `pick` command for the first commit and `squash` command for the subsequent commits). Git will apply all changes in a single commit and ask you to edit the overall commit message.
 
 
-
+![](./git-interactive-rebase-top-image.png)
 
 ## Cherry Picking
 Rather than merging/rebasing all the commits in a topic branch, you might only want a certain commit, for example I have a `drafts` local branch where I’m working on several potential blog posts, but I may only want to publish one of them. `git cherry-pick <picked commit>` allows you to do just that. We can use `git log <base>..<topic>` to get the specific commits we should choose from.
