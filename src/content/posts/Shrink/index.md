@@ -15,18 +15,14 @@ I must agree, the name shrinkage is quite a strange one, but in essence what shr
 First, we shall begin by understanding the trade-off between bias and variance. This trade-off in statistical estimation is very similar to the bias-variance trade-off encountered in machine learning. Some estimators have more bias than others and some have more variance than others. A way to illustrate this is the following. Consider the sample covariance of a set of observations. The sample covariance is an unbiased estimator of the population covariance, with the following form:
 
 $$
-\[
 \hat{\Sigma}_s = \frac{1}{n-1} \left[ (x - \hat{\mu})(x - \hat{\mu})^T \right]
-\]
 $$
 
 However, this estimator only works well when the amount of data is large. So when the dataset is small, the variance of the estimator is large. Now consider another estimator with lower variance and error, for example, the Maximum Likelihood Estimator. The form of MLE estimator for a normal distribution assumption will be
 
 
 $$
-\[
 \hat{\Sigma}_s = \frac{1}{n-1} \left[ (x - \hat{\mu})(x - \hat{\mu})^T \right]
-\]
 $$
 
 Obviously, since the distribution is a simple Gaussian, the difference between the two estimates is not significant. Nevertheless, it allows us to prove the usefulness of shrinkage estimators. MLE estimators usually have lesser error and hence less variance. They tend to work better even when the data set is not very large.
@@ -35,9 +31,7 @@ Obviously, since the distribution is a simple Gaussian, the difference between t
 Now we can begin unraveling the shrinkage estimator. Consider the following estimator:
 
 $$
-\[
 \hat{\Sigma}{shrunk} = \delta \hat{\Sigma}_s + (1 - \delta) \hat{\Sigma}{MLE}
-\]
 $$
 
 Where delta is called the shrinkage coefficient. The idea of a shrinkage estimator is simple. However, think about how to choose the optimal value of delta? The solution to this problem was found by Ledoit and Wolf in this excellent [paper](https://perso.ens-lyon.fr/patrick.flandrin/LedoitWolf_JMA2004.pdf).
@@ -45,9 +39,7 @@ Where delta is called the shrinkage coefficient. The idea of a shrinkage estimat
 The estimators that are shrunk in the example used by Ledoit is sample covariance and the identity matrix. It might seem strange to use the identity matrix as part of the shrinkage, but it is more of decreasing the error of the sample covariance. I will state the optimal value of shrinkage without proof as the proof has a bit of linear algebra that can be done by the reader.
 
 $$
-\[
 \hat{\Sigma} = \frac{\mathbb{E}[|S - \Sigma|^2]}{\mathbb{E}[|S - \mu I|^2]} \text{tr}(\Sigma)I + \frac{\mathbb{E}[|S - \mu I|^2]}{|S - \mu I|^2} S
-\]
 $$
 
 The issue is that the actual theoretical optimal shrinkage requires the knowledge of the actual covariance matrix. However, there are several implementations that find approximations to this shrinkage matrix and work very well.
