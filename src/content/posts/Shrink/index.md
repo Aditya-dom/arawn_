@@ -1,7 +1,7 @@
 ---
 title: Shrinkage Estimators:- Shrinking statistical estimates
 published: 2024-10-01 
-description:Shrinkage estimators improve accuracy by pulling extreme estimates closer to the average, especially when data is noisy or limited. This helps make predictions more stable and prevents overfitting.
+description: Shrinkage estimators improve accuracy by pulling extreme estimates closer to the average, especially when data is noisy or limited. This helps make predictions more stable and prevents overfitting.
 image: "./cover_shrink.webp"
 category: Programming
 tags: ["Programming", "Quant" , "Optimalportfolio"]
