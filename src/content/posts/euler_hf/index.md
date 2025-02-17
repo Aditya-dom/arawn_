@@ -1,5 +1,5 @@
 ---
-title: How to calculate Euler's health score
+title: How to calculate Euler's Finance health score
 published: 2025-02-17 
 description: Liquidation is Brutal. Know Your Euler Health Factor or Sink!
 image: "./high_lvl.png"
