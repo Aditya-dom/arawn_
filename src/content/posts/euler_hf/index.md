@@ -77,24 +77,27 @@ function getCurrentHealthScore() public view returns (uint256) {
 }
 ```
 
-Calculate amount to `mint` or `burn` to maintain a target health score.
+## Calculate the amount to `mint` or `burn` to maintain a target health score.
 ***
-Minting
+### Minting
 ***
-Let h_{target} (\gt 1) denote the target health score we want to maintain.
-Let x denote its newly added collateral and x^s denote its newly added collateral with recursive borrowing (`eToken.mint()`).
+Let $h_{\text{target}}$ $>1$ denote the target health score we want to maintain.  
+Let $x$ denote its newly added collateral and $x^s$ denote its newly added collateral with recursive borrowing (`eToken.mint()`).
 
-Strategy deposits its underlyings with eToken.deposit(amount x) and eToken.mint(amount x^s).
+The strategy deposits its underlyings with $eToken.deposit(amount \, x)$ and $eToken.mint(amount \, x^s)$.
 
-h_{target} = \frac{f^c[a^c + x + x^s -{s^c + x^s \over f^s}] + s^c + x^s}{s^c + x^s} \tag{4}
+$$
+h_{\text{target}} = \frac{f^c \left[ a^c + x + x^s - \frac{s^c + x^s}{f^s} \right] + s^c + x^s}{s^c + x^s} \tag{4}
+$$
 
-Resolve the equation for x^s.
+Resolve the equation for $x^s$.
 
-x^s = \frac{f^c(a^c+ x ) - (h_{target} + f^c/f^s - 1)s^c}{h_{target} + f^c(1/f^s -1) -1} \tag{5}
+$$
+x^s = \frac{f^c(a^c + x) - \left(h_{\text{target}} + \frac{f^c}{f^s} - 1\right)s^c}{h_{\text{target}} + f^c\left(\frac{1}{f^s} - 1\right) - 1} \tag{5}
+$$
 ***
-
 ### Burning
-Strategy withdraws its underlyings with `eToken.withdraw(amount x)` and `eToken.burn(amount x^s)`.
+The strategy withdraws its underlyings with $eToken.withdraw(amount \, x)$ and $eToken.burn(amount \, x^s)$.
 
 
 ### References
