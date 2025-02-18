@@ -1,6 +1,6 @@
 ---
-title: How to calculate Euler's Finance health score
-published: 2025-02-17 
+title: How to calculate Euler's Finance health score and Euler Leveraged Strategy
+published: 2025-02-18 
 description: Liquidation is Brutal. Know Your Euler Health Factor or Sink!
 image: "./high_lvl.png"
 category: DeFi
