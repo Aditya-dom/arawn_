@@ -57,6 +57,45 @@ now collateral 10000 USDC and liability 9000 USDC.
 so, risk adjusted collateral = (10000 - 9000/0.95) * 0.9 + 9000 * 0.95 = 9023
 risk adjusted liability  = 9000*1
 ```
+### Peusdocode
+```
+function getCurrentHealthScore() public view returns (uint256) {
+        IMarkets.AssetConfig memory config = EULER_MARKETS.underlyingToAssetConfig(token);
+        uint256 cf = config.collateralFactor;
+        uint256 balanceInUnderlying = IEToken(config.eTokenAddress).balanceOfUnderlying(address(this));
+        uint256 selfAmount = dToken.balanceOf(address(this));
+
+        require(selfAmount != 0, "strat/no-borrow");
+
+        // selfAmountAdjusted = selfAmount * CONFIG_FACTOR_SCALE) / SELF_COLLATERAL_FACTOR;
+        uint256 riskAdjustedCollateral = (cf *
+            (balanceInUnderlying - (selfAmount * CONFIG_FACTOR_SCALE) / SELF_COLLATERAL_FACTOR)) /
+            CONFIG_FACTOR_SCALE +
+            selfAmount;
+        uint256 riskAdjustedLilability = selfAmount;
+        return (riskAdjustedCollateral * EXP_SCALE) / riskAdjustedLilability;
+}
+```
+
+Calculate amount to `mint` or `burn` to maintain a target health score.
+***
+Minting
+***
+Let h_{target} (\gt 1) denote the target health score we want to maintain.
+Let x denote its newly added collateral and x^s denote its newly added collateral with recursive borrowing (`eToken.mint()`).
+
+Strategy deposits its underlyings with eToken.deposit(amount x) and eToken.mint(amount x^s).
+
+h_{target} = \frac{f^c[a^c + x + x^s -{s^c + x^s \over f^s}] + s^c + x^s}{s^c + x^s} \tag{4}
+
+Resolve the equation for x^s.
+
+x^s = \frac{f^c(a^c+ x ) - (h_{target} + f^c/f^s - 1)s^c}{h_{target} + f^c(1/f^s -1) -1} \tag{5}
+***
+
+### Burning
+Strategy withdraws its underlyings with `eToken.withdraw(amount x)` and `eToken.burn(amount x^s)`.
+
 
 ### References
 
