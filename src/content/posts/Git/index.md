@@ -356,4 +356,21 @@ git cherry-pick 2ewfewew23r208hfh08fhf80h280h28001
 ## Conclusion
 This wraps up an admittedly lengthy blog post about Git and many of its intricacies. If you want to read more about Git, I _highly_ recommend the Pro Git book, whilst it is substantially longer at ~450 pages, it does spend a lot longer than this post explaining each of the main concepts in Git. This post serves as a quick reference to all of the major commands, though you can use Pro Git and of course `git help <command>` to go more in depth!
 
+<script src="https://giscus.app/client.js"
+        data-repo="Aditya-dom/arawn.github.io"
+        data-repo-id="R_kgDOLeAbmQ"
+        data-category="General"
+        data-category-id="DIC_kwDOLeAbmc4CeCQd"
+        data-mapping="title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="1"
+        data-input-position="top"
+        data-theme="dark_dimmed"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
+
 ***

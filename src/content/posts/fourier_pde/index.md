@@ -175,4 +175,22 @@ Instead of just solving for the coefficients, why not think about it geometrical
 ## Conclusion
 This concludes the first part of our investigation into how we can use Fourier Analysis to solve PDEs. In the next post, I will talk about how we can use the Fourier Transform to find a more generalised method of solving PDEs which turns out to be very useful.
 
+
+<script src="https://giscus.app/client.js"
+        data-repo="Aditya-dom/arawn.github.io"
+        data-repo-id="R_kgDOLeAbmQ"
+        data-category="General"
+        data-category-id="DIC_kwDOLeAbmc4CeCQd"
+        data-mapping="title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="1"
+        data-input-position="top"
+        data-theme="dark_dimmed"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
+
 ***

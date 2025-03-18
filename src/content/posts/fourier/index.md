@@ -236,3 +236,20 @@ If you want to make any drawing using epicycles, [here](https://github.com/Adity
 #### Copyright stuff:
 All the images and gif used here are all created using a python library called Manim , developed by Grant Sanderson and p5.js developed by Lauren McCarthy . All equations and calculations used are written by me using Latex/Katex.
 
+<script src="https://giscus.app/client.js"
+        data-repo="Aditya-dom/arawn.github.io"
+        data-repo-id="R_kgDOLeAbmQ"
+        data-category="General"
+        data-category-id="DIC_kwDOLeAbmc4CeCQd"
+        data-mapping="title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="1"
+        data-input-position="top"
+        data-theme="dark_dimmed"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
+
