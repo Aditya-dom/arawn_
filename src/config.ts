@@ -60,7 +60,7 @@ export const profileConfig: ProfileConfig = {
     {
       name: 'Twitter',
       icon: 'fa6-brands:twitter',
-      url: 'https://twitter.com/Aditya_dom10',
+      url: 'https://twitter.com/arawn_10',
     },
     {
       name: 'Spotify',
