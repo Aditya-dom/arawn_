@@ -39,6 +39,9 @@ importers:
       '@swup/astro':
         specifier: ^1.4.1
         version: 1.4.1(@types/babel__core@7.20.5)
+      '@vercel/analytics':
+        specifier: ^1.5.0
+        version: 1.5.0(svelte@4.2.18)(vue@3.5.3(typescript@5.5.4))
       astro:
         specifier: ^4.14.2
         version: 4.14.2(@types/node@20.14.12)(lightningcss@1.25.1)(rollup@2.79.1)(sass@1.77.8)(stylus@0.63.0)(terser@5.31.3)(typescript@5.5.4)
@@ -1282,12 +1285,6 @@ packages:
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
     engines: {node: '>=12'}
 
-  '@jasikpark/astro-svg-loader@0.2.0':
-    resolution: {integrity: sha512-s9OSILZ1xvEzH8CiOcz4cd2Q2DPbYQvJT4IyKvx/L5hwyYasE6HHShbkut7H2vqYP73TWMOtz8qE8xyYaGrhbw==}
-    engines: {node: '>18', pnpm: '>=7.9.5'}
-    peerDependencies:
-      astro: ^2.0.0 || ^3.0.0
-
   '@jridgewell/gen-mapping@0.3.5':
     resolution: {integrity: sha512-IzL8ZoEDIBRWEzlCcRhOaCupYyN5gdIK+Q6fbFdPDg6HqX6jpkItn7DFIpW9LQzXG6Df9sA7+OKnq0qlz/GaQg==}
     engines: {node: '>=6.0.0'}
@@ -1714,6 +1711,32 @@ packages:
 
   '@ungap/structured-clone@1.2.0':
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
+
+  '@vercel/analytics@1.5.0':
+    resolution: {integrity: sha512-MYsBzfPki4gthY5HnYN7jgInhAZ7Ac1cYDoRWFomwGHWEX7odTEzbtg9kf/QSo7XEsEAqlQugA6gJ2WS2DEa3g==}
+    peerDependencies:
+      '@remix-run/react': ^2
+      '@sveltejs/kit': ^1 || ^2
+      next: '>= 13'
+      react: ^18 || ^19 || ^19.0.0-rc
+      svelte: '>= 4'
+      vue: ^3
+      vue-router: ^4
+    peerDependenciesMeta:
+      '@remix-run/react':
+        optional: true
+      '@sveltejs/kit':
+        optional: true
+      next:
+        optional: true
+      react:
+        optional: true
+      svelte:
+        optional: true
+      vue:
+        optional: true
+      vue-router:
+        optional: true
 
   '@volar/kit@2.4.0-alpha.18':
     resolution: {integrity: sha512-dZMSNhesh23lhd61ax2l04IgIcYofAjm8M+5BKAmX47ROweyc8RrrslszCFUJynlmXx6JS1PoHqvo8+E0aAYQQ==}
@@ -4564,9 +4587,6 @@ packages:
   ufo@1.5.4:
     resolution: {integrity: sha512-UsUk3byDzKd04EyoZ7U4DOlxQaD14JUKQl6/P7wiX4FNvUfm3XL246n9W5AmqwW5RSFJ27NAuM0iLscAOYUiGQ==}
 
-  ultrahtml@1.5.2:
-    resolution: {integrity: sha512-qh4mBffhlkiXwDAOxvSGxhL0QEQsTbnP9BozOK3OYPEGvPvdWzvAUaXNtUSMdNsKDtuyjEbyVUPFZ52SSLhLqw==}
-
   unbox-primitive@1.0.2:
     resolution: {integrity: sha512-61pPlCD9h51VoreyJ0BReideM3MDKMKnh6+V9L08331ipq6Q8OFXZYiqP6n/tbHx4s5I9uRhcye6BrbkizkBDw==}
 
@@ -6240,11 +6260,6 @@ snapshots:
       wrap-ansi: 8.1.0
       wrap-ansi-cjs: wrap-ansi@7.0.0
 
-  '@jasikpark/astro-svg-loader@0.2.0(astro@4.14.2(@types/node@20.14.12)(lightningcss@1.25.1)(rollup@2.79.1)(sass@1.77.8)(stylus@0.63.0)(terser@5.31.3)(typescript@5.5.4))':
-    dependencies:
-      astro: 4.14.2(@types/node@20.14.12)(lightningcss@1.25.1)(rollup@2.79.1)(sass@1.77.8)(stylus@0.63.0)(terser@5.31.3)(typescript@5.5.4)
-      ultrahtml: 1.5.2
-
   '@jridgewell/gen-mapping@0.3.5':
     dependencies:
       '@jridgewell/set-array': 1.2.1
@@ -6706,6 +6721,11 @@ snapshots:
     optional: true
 
   '@ungap/structured-clone@1.2.0': {}
+
+  '@vercel/analytics@1.5.0(svelte@4.2.18)(vue@3.5.3(typescript@5.5.4))':
+    optionalDependencies:
+      svelte: 4.2.18
+      vue: 3.5.3(typescript@5.5.4)
 
   '@volar/kit@2.4.0-alpha.18(typescript@5.5.4)':
     dependencies:
@@ -10275,8 +10295,6 @@ snapshots:
   uc.micro@2.1.0: {}
 
   ufo@1.5.4: {}
-
-  ultrahtml@1.5.2: {}
 
   unbox-primitive@1.0.2:
     dependencies:
