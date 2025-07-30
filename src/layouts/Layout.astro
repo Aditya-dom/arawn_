@@ -1,6 +1,7 @@
 ---
 import GlobalStyles from '@components/GlobalStyles.astro'
 import GoogleAnalytics from '@components/GoogleAnalytics.astro'
+import Analytics from '@vercel/analytics/astro'
 import '@fontsource/roboto/400.css'
 import '@fontsource/roboto/500.css'
 import '@fontsource/roboto/700.css'
@@ -130,6 +131,7 @@ const siteLang = lang.replace('_', '-')
 		</div>
 		<slot />
 		</GlobalStyles>
+		<Analytics />
 	</body>
 </html>
 <style is:global>
