@@ -22,7 +22,7 @@ A good quant must be a mixture; part trader, part mathematician, part programmer
 Just study Mathematics 1, 2, and 3 taught in almost every Indian engineering institute. I’m not aware of exceptions, but honestly, M1,M2, M3 are more than enough to kickstart your Quant journey.
 
 Then, on your own, start learning how financial models work in the fintech industry. Understand everything; from why we need markets, demand::supply dynamics, long;term investing, intraday, overnight futures… every basic to advanced concept.
-This is crucial, not just for being a Quant but also for managing and multiplying your own money. Financial literacy is a must, Quant or Mechanical Engg., doesn’t matter.
+This is crucial, not just for being a Quant but also for managing and growing your own money. Financial literacy is a must, Quant or Mechanical Engg., doesn’t matter.
 
 Start low::level. Pick one: Rust, C++, OCaml; anything you vibe with. And yeah, I know everyone reading this already knows Python::so start building stuff with Python. Speculate on orderbooks, charts, models, Agents, MCPs.
 **Talk about money.**
