@@ -1,6 +1,6 @@
 # About
-I wear multiple hats across Maths/Blockchain/Quant/ML. DeFi Engineer at [Quranium](https://quranium.org/). Currently building [**Timelock**](https://timelock.trade): an on-chain options protocol with 1000x leverage and zero liquidation (oracle free) and also exploring idea of non-liquidatable yield protocol. 
-My core interests these days: Crypto HFT market making, low-latency Rust code, hardware (FPGA, NICs), and applying ML to unsolved problems in DeFi, Quant, and Blockchain.
+I wear multiple hats across Maths/Quant/Blockchain/ML. DeFi Engineer at [Quranium](https://quranium.org/). Currently building [**Timelock**](https://timelock.trade): an on-chain options protocol with 1000x leverage and zero liquidation (oracle free) and also exploring idea of non-liquidatable yield protocol. 
+My core interests these days: Crypto HFT market making, low-latency Rust Programming, Hardware, Computer Architectures.
 
 I also hold an honorary  **__Bug Hunter__**  tag for finding vulnerabilities in Snapchat & Uber. In past lives, I previously wore the same multitude of hats at [**Yield.fi**](https://yield.fi) as DeFi/Quant Strategist(on-chain Strategies), [Blockhouse](https://blockhouse.app/) as Quant Researcher beyond that and doing my B.Tech at the [**Institute of Engineering and Technology**](https://www.ietlucknow.ac.in/).
 
