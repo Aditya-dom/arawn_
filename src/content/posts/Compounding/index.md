@@ -1,7 +1,7 @@
 ---
 title: "Compounding, So Far"
 published: 2026-05-03
-description: "Job switches, hackathon wins, building what matters, and the virtue of single-mindedness."
+description: "building"
 image: "./proposersuffixwithtree.png"
 category: Blogging
 tags: ["Programming", "Quant", "DeFi"]
