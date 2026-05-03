@@ -63,9 +63,9 @@ export const profileConfig: ProfileConfig = {
       url: 'https://twitter.com/arawn_10',
     },
     {
-      name: 'Spotify',
-      icon: 'fa6-brands:spotify',
-      url: 'https://open.spotify.com/user/cmp0d8tkqc62rbkmktv4nk65e?si=3168cc1a57604be5',
+      name: 'Apple Music',
+      icon: 'fa6-brands:apple',
+      url: 'https://music.apple.com/profile/arawn_10',
     },
     {
       name: 'LinkedIn',
