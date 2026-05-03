@@ -26,7 +26,7 @@ This is the work I care about most. Building strategies and trading systems for 
 
 ## Presenting and Sharing Experience at IIT Kanpur
 
-Recently had the opportunity to present at the Indian Institute of Technology Kanpur, where I spoke about my experience in trading, digital assets, web3 &amp;  what I'm currently building i.e [PulsarX](https://pulsarx.io/). Big Thanks to [Abhishek Singh](https://www.linkedin.com/in/abhishek-kumar-singh-96b827184/), Founder of PulsarX, for making it happen. The overall experience was great always good to talk to people who are genuinely curious about how markets work at the infrastructure low level.
+Recently had the opportunity to present at the Indian Institute of Technology Kanpur, where I spoke about my experience in quantative trading, digital assets, web3 &amp; what I'm currently building i.e [PulsarX](https://pulsarx.io/). Big Thanks to [Abhishek Singh](https://www.linkedin.com/in/abhishek-kumar-singh-96b827184/), Founder of PulsarX, for making it happen. The overall experience was great always good to talk to people who are genuinely curious about how markets work at the infrastructure low level.
 
 ![Presenting PulsarX Terminal at IIT Kanpur](./IITK1.jpg)
 
