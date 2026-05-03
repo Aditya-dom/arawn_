@@ -2,6 +2,7 @@ import partytown from '@astrojs/partytown'
 import sitemap from '@astrojs/sitemap'
 import svelte from '@astrojs/svelte'
 import tailwind from '@astrojs/tailwind'
+import vercel from '@astrojs/vercel/serverless'
 import swup from '@swup/astro'
 import Compress from 'astro-compress'
 import icon from 'astro-icon'
@@ -35,6 +36,12 @@ export default defineConfig({
   site: 'https://arawn.vercel.app/',
   base: '/',
   trailingSlash: 'always',
+  output: 'hybrid',
+  adapter: vercel({
+    webAnalytics: {
+      enabled: true,
+    },
+  }),
   integrations: [
     tailwind(),
     swup({
