@@ -32,7 +32,7 @@ const oklchToHex = str => {
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://arawn.live/',
+  site: 'https://arawn.vercel.app/',
   base: '/',
   trailingSlash: 'always',
   integrations: [
