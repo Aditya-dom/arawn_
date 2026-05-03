@@ -37,7 +37,7 @@ $$
 V = \sum_{n=1}^{\infty} \left(\frac{1}{2}\right)^{n+1} \cdot V_{BS}(T = n \cdot f)
 $$
 
-That's the core intellectual idea. No expiry management, no roll costs, continuous exposure. The funding mechanism replaces discrete settlement with a perpetual payment stream, analogous to how perpetual swaps replaced futures rolls. For those who want the full derivation, read [Paradigm's original paper](https://www.paradigm.xyz/2021/05/everlasting-options) by [Dave White](https://x.com/_Dave__White_) and [Sam Bankman-Fried](https://x.com/SBF_FTX). I'll cover the full architecture: pricing engine, funding formula, delta and vega hedging via Pacifica perps, the protocol acting as market maker (We are working on the LP Vault and RFQ model) in a separate post.
+That's the core intellectual idea. No expiry management, no roll costs, continuous exposure. The funding mechanism replaces discrete settlement with a perpetual payment stream, analogous to how perpetual swaps replaced futures rolls. For those who want the full derivation, read [Paradigm's Everlasting Options Model](https://www.paradigm.xyz/2021/05/everlasting-options) by [Dave White](https://x.com/_Dave__White_) and [Sam Bankman-Fried](https://x.com/SBF_FTX). I'll cover the full architecture: pricing engine, funding formula, delta and vega hedging via Pacifica perps, the protocol acting as market maker (We are working on the LP Vault and RFQ model) in a separate post.
 
 ### Dark Bridge — Private Cross-Chain Transfers
 
@@ -85,4 +85,4 @@ Excellence is a choice. And it's a choice you make every single day, in what you
 
 More building. More trading. More shipping. The blog will get its Perennia deep dive soon and how it works under the hood: full architecture, pricing engine, funding mechanics, the works. The onchain capital management stack is getting closer to something real. And the market keeps teaching lessons, which is the only teacher that never grades on a curve.
 
-Stay loaded.
+> Stay loaded.
