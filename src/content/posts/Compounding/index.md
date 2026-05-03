@@ -2,7 +2,7 @@
 title: "Compounding, So Far"
 published: 2026-05-03
 description: "building"
-image: "./proposersuffixwithtree.png"
+image: "./circuitoflimit.jpeg"
 category: Blogging
 tags: ["Programming", "Quant", "DeFi"]
 slug: compounding-so-far
