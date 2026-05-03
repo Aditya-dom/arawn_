@@ -9,6 +9,8 @@ slug: compounding-so-far
 draft: false
 ---
 
+<style>#post-cover { max-height: 22rem; overflow: hidden; }</style>
+
 > The edge isn't intelligence, it's refusal to dilute. Years of depth on one problem compounds into something breadth never produces. Most people never find out because they keep switching. Excellence is a choice.
 
 ## The Switch
