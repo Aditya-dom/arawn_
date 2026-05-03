@@ -18,15 +18,15 @@ draft: false
 
 ## The Switch
 
-2026 started with a job change. I joined a proprietary crypto hedge fund. the kind of place where your P&L is the only performance review that matters. You build strategies, you trade, you ship execution infrastructure and the market tells you if you're right. Every day.
+2026 started with a job change. I joined a proprietary crypto hedge fund. the kind of place where your P&amp;L is the only performance review that matters. You build strategies, you trade, you ship execution infrastructure and the market tells you if you're right. Every day.
 
-Side by side, we're building PulsarX — a product for fund managers and partners to do onchain capital management in a fully non-custodial way. The thesis is simple: you should be able to delegate specific trading permissions to a fund manager without ever giving up custody of your funds. No omnibus accounts. Your capital sits in your Safe(multsig) wallet, the manager operates within policy bound delegations and every action is verifiable onchain. The way institutional DeFi should have been built from the start.
+Side by side, we're building [PulsarX](https://pulsarx.io/): A product for fund managers and partners to do onchain capital management in a fully non-custodial way. The thesis is simple: you should be able to delegate specific trading permissions to a fund manager without ever giving up custody of your funds. No omnibus accounts. Your capital sits in your Safe(multsig) wallet, the manager operates within policy bound delegations and every action is verifiable onchain. The way institutional DeFi should have been built from the start.
 
 This is the work I care about most. Building strategies and trading systems for better execution. Building a terminal that is properly onchain without compromising custody. The infrastructure layer between TradFi collateral management and DeFi execution.
 
 ## Presenting and Sharing Experience at IIT Kanpur
 
-Recently had the opportunity to present at the Indian Institute of Technology Kanpur, where I spoke about my experience in trading, digital assets, web3, and what I'm currently building i.e PulsarX. Big Thanks to [Abhishek Singh](https://www.linkedin.com/in/abhishek-kumar-singh-96b827184/), Founder of PulsarX, for making it happen. The overall experience was great always good to talk to people who are genuinely curious about how markets work at the infrastructure low level.
+Recently had the opportunity to present at the Indian Institute of Technology Kanpur, where I spoke about my experience in trading, digital assets, web3 &amp;  what I'm currently building i.e [PulsarX](https://pulsarx.io/). Big Thanks to [Abhishek Singh](https://www.linkedin.com/in/abhishek-kumar-singh-96b827184/), Founder of PulsarX, for making it happen. The overall experience was great always good to talk to people who are genuinely curious about how markets work at the infrastructure low level.
 
 ![Presenting PulsarX Terminal at IIT Kanpur](./IITK1.jpg)
 

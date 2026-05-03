@@ -1,7 +1,7 @@
 # About
 I wear multiple hats across Maths/Quant/Blockchain and ultra low-latency systems. I am a Founding Member at [PulsarX](https://pulsarx.io/), working as a Quant and DeFi Architect, leading the whole quant and on-chain infra development.
 
-I worked at (full-time experiences only):
+I worked at (full-time experiences):
 - [**Yield.fi**](https://yield.fi) as a Quant/DeFi Strategist (on-chain strategies)
 - [**Blockhouse**](https://blockhouse.app/) as a Quant Strategist (ML)
 - [**Quranium**](https://quranium.org/) as a DeFi Protocol Engineer
