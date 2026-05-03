@@ -8,8 +8,6 @@ tags: ["Probability", "Mathematics", "Quant", YieldSpace]
 slug: YieldSpace
 ---
 
-[ToC]
-
 ## Definition
 underlying: base asset of a interest-bearing token
 interest-bearing token: IOU like cDAI, eUSDC

@@ -5,12 +5,12 @@ I worked at (full-time experiences):
 - [**Yield.fi**](https://yield.fi) as a Quant/DeFi Strategist (on-chain strategies)
 - [**Blockhouse**](https://blockhouse.app/) as a Quant Strategist (ML)
 - [**Quranium**](https://quranium.org/) as a DeFi Protocol Engineer
-- [**Timelock Trade**](https://timelock.trade) as DeFi Protocol Engineer
+- [**Timelock Trade**](https://timelock.trade) as Founding DeFi Protocol Engineer
 
 Achievements:
 
 - Two International Hackathon Wins:
-  1. I built [Perennia](https://perennia.xyz), an everlasting options protocol.
+  1. I built [Perennia](https://perennia.xyz): an everlasting options protocol.
   2. I built [Dark Bridge](https://darkk-bridge.vercel.app/): a decentralized but private bridge.
 
 - I also hold an honorary **Bug Hunter** tag for reporting vulnerabilities at Snapchat and Uber.
