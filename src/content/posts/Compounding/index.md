@@ -33,7 +33,7 @@ I participated in the [Pacifica Hackathon](https://pacifica.gitbook.io/docs/trad
 
 What makes it "everlasting"? Instead of expiring, the instrument is priced as a weighted sum of short dated BSM options across an infinite horizon approximation:
 
-$$V = \sum_{n=1}^{\infty} \left(\frac{1}{2}\right)^{n+1} \cdot V_{BS}(T = n \cdot f)$$
+$V = \sum_{n=1}^{\infty} \left(\frac{1}{2}\right)^{n+1} \cdot V_{BS}(T = n \cdot f)$
 
 That's the core intellectual idea. No expiry management, no roll costs, continuous exposure. The funding mechanism replaces discrete settlement with a perpetual payment stream, analogous to how perpetual swaps replaced futures rolls. For those who want the full derivation, read [Paradigm's original paper](https://www.paradigm.xyz/2021/05/everlasting-options) by [Dave White](https://x.com/_Dave__White_) and [Sam Bankman-Fried](https://x.com/SBF_FTX). I'll cover the full architecture: pricing engine, funding formula, delta and vega hedging via Pacifica perps, the protocol acting as market maker (We are working on the LP Vault and RFQ model) in a separate post.
 
