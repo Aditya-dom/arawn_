@@ -6,7 +6,7 @@ image: "./circuitoflimit.jpeg"
 category: Blogging
 tags: ["Programming", "Quant", "DeFi"]
 slug: compounding-so-far
-draft: false
+draft: true
 ---
 
 <style>
