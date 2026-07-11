@@ -2,6 +2,7 @@
 Trying to make alot of Money
 
 I worked at (full-time experiences):
+- [**PulsarX**](https://www.pulsarx.io/) as Founding Quant Trader Developer
 - [**Yield.fi**](https://yield.fi) as a Quant/DeFi Strategist (on-chain strategies)
 - [**Blockhouse**](https://blockhouse.app/) as a Quant Strategist (ML)
 - [**Quranium**](https://quranium.org/) as a DeFi Protocol Engineer
