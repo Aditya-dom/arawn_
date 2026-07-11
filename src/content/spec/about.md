@@ -1,5 +1,5 @@
 # About
-Trying to make alot of Money
+Currently Paying Chaos
 
 I worked at (full-time experiences):
 - [**PulsarX**](https://www.pulsarx.io/) as Founding Quant Trader Developer
