@@ -1,5 +1,5 @@
 # About
-I wear multiple hats across Maths/Quant/Blockchain and ultra low-latency systems. I am a Founding Member at DeFi Start-up, working as a Quant and DeFi Architect, leading the whole quant and on-chain infra development.
+Trying to make alot of Money
 
 I worked at (full-time experiences):
 - [**Yield.fi**](https://yield.fi) as a Quant/DeFi Strategist (on-chain strategies)
