@@ -73,9 +73,9 @@ export const profileConfig: ProfileConfig = {
       url: 'https://www.linkedin.com/in/adi-dom/',
     },
     {
-      name: 'RSS',
-      icon: 'fa6-solid:rss',
-      url: '/rss.xml',
+      name: 'Instagram',
+      icon: 'fa6-brands:instagram',
+      url: 'https://www.instagram.com/arawn_10/',
     },
   ],
 }
