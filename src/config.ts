@@ -75,7 +75,7 @@ export const profileConfig: ProfileConfig = {
     {
       name: 'Instagram',
       icon: 'fa6-brands:instagram',
-      url: 'https://www.instagram.com/arawn_10/',
+      url: 'https://www.instagram.com/towardspreads/',
     },
   ],
 }
