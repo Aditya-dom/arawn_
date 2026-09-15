@@ -13,7 +13,7 @@ export async function GET(context: APIContext) {
   return rss({
     title: siteConfig.title,
     description: siteConfig.subtitle || 'No description',
-    site: context.site ?? 'https://arawn.live',
+    site: context.site ?? 'https://arawn.capital',
     items: blog.map(post => {
       const body = typeof post.data.body === 'string' ? post.data.body : ''
       return {
