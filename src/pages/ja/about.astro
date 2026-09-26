@@ -16,6 +16,17 @@ const { Content } = await aboutPost.render()
             <Markdown class="mt-2">
                 <Content />
             </Markdown>
+            <a href="/about/" id="view-in-english"
+               class="link text-[var(--primary)] text-sm font-medium">View this page in English</a>
         </div>
     </div>
 </MainGridLayout>
+
+<script>
+/* The edge middleware sends Japanese IPs here. Without a way to record an
+   explicit preference, that redirect is a one-way door; the cookie is what
+   the middleware checks to stand down. */
+document.getElementById('view-in-english')?.addEventListener('click', () => {
+    document.cookie = 'lang-pref=en; path=/; max-age=31536000; samesite=lax'
+})
+</script>
