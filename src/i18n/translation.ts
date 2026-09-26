@@ -1,6 +1,7 @@
 import { siteConfig } from '../config'
 import type I18nKey from './i18nKey'
 import { en } from './languages/en'
+import { ja } from './languages/ja'
 
 export type Translation = {
   [K in I18nKey]: string
@@ -13,6 +14,8 @@ const map: { [key: string]: Translation } = {
   en_us: en,
   en_gb: en,
   en_au: en,
+  ja: ja,
+  ja_jp: ja,
 }
 
 export function getTranslation(lang: string): Translation {
