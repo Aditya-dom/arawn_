@@ -18,7 +18,7 @@ Achievements:
 
 **In my work, I’m probably best known for two things:**
 
-Open-source software; in particular, in the Rust and quantitative ecosystems. See my [**software page**](https://arawn.vercel.app/) and my [**GitHub page**](https://github.com/Aditya-dom).
+Open-source software; in particular, in the Rust and quantitative ecosystems. See my [**software page**](https://arawn.capital/) and my [**GitHub page**](https://github.com/Aditya-dom).
 
 When I’m not staring at code, I find joy in playing cricket, hanging out with my dog, crafting melodies with my guitar, sculpting my physique at the gym, or going on a solo trip.
 

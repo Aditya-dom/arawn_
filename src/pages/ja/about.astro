@@ -1,0 +1,21 @@
+---
+import Markdown from '@components/misc/Markdown.astro'
+import { getEntry } from 'astro:content'
+import MainGridLayout from '../../layouts/MainGridLayout.astro'
+import I18nKey from '../../i18n/i18nKey'
+import { getTranslation } from '../../i18n/translation'
+
+const t = getTranslation('ja')
+const aboutPost = await getEntry('spec', 'about-ja')
+
+const { Content } = await aboutPost.render()
+---
+<MainGridLayout title={t[I18nKey.about]} description={t[I18nKey.about]} lang="ja">
+    <div class="flex w-full rounded-[var(--radius-large)] overflow-hidden relative min-h-32">
+        <div class="card-base z-10 px-9 py-6 relative w-full ">
+            <Markdown class="mt-2">
+                <Content />
+            </Markdown>
+        </div>
+    </div>
+</MainGridLayout>
