@@ -8,6 +8,11 @@ import manifest from './locale-manifest.json'
 const COOKIE = 'lang-pref'
 const GEO_TO_LOCALE: Record<string, string> = { JP: 'ja' }
 
+/* Countries pinned to the English originals regardless of any locale mapping
+   added later. Kept explicit rather than relying on absence from the map
+   above, so adding a locale can never silently capture these visitors. */
+const FORCE_ENGLISH = new Set(['IN'])
+
 /* Crawlers must reach the canonical English pages: Googlebot indexes from a
    handful of egress regions, so geo-redirecting it would hide the originals. */
 const BOT = /bot|crawler|spider|crawling|slurp|bingpreview|facebookexternalhit/i
@@ -29,6 +34,8 @@ export default function middleware(request: Request): Response | undefined {
   if (cookie.includes(`${COOKIE}=`)) return
 
   const country = request.headers.get('x-vercel-ip-country') ?? ''
+  if (FORCE_ENGLISH.has(country)) return
+
   const locale = GEO_TO_LOCALE[country]
   if (!locale) return
 
