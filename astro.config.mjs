@@ -16,6 +16,7 @@ import remarkGithubAdmonitionsToDirectives from 'remark-github-admonitions-to-di
 import remarkMath from 'remark-math'
 import { AdmonitionComponent } from './src/plugins/rehype-component-admonition.mjs'
 import { GithubCardComponent } from './src/plugins/rehype-component-github-card.mjs'
+import { rehypeNoTranslate } from './src/plugins/rehype-no-translate.mjs'
 import { parseDirectiveNode } from './src/plugins/remark-directive-rehype.js'
 import { remarkExcerpt } from './src/plugins/remark-excerpt.js'
 import { remarkReadingTime } from './src/plugins/remark-reading-time.mjs'
@@ -81,6 +82,7 @@ export default defineConfig({
     ],
     rehypePlugins: [
       [rehypeKatex, { output: 'html' }],
+      rehypeNoTranslate,
       rehypeSlug,
       [
         rehypeComponents,
