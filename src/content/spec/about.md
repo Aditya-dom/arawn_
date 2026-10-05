@@ -2,6 +2,7 @@
 Currently Paying Chaos
 
 I worked at (full-time experiences):
+- [**Astralane**](https://astralane.io/) as a Quant Research Engineer
 - [**PulsarX**](https://www.pulsarx.io/) as Founding Quant Trader Developer
 - [**Yield.fi**](https://yield.fi) as a Quant/DeFi Strategist (on-chain strategies)
 - [**Blockhouse**](https://blockhouse.app/) as a Quant Strategist (ML)
