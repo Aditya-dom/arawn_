@@ -1,0 +1,91 @@
+---
+import { Icon } from 'astro-icon/components'
+import { LOCALES } from '../constants/translate'
+---
+<!-- translate="no": the picker must keep showing native language names -->
+<div class="relative z-50 notranslate" translate="no" id="lang-switch">
+    <button aria-label="Language" aria-haspopup="menu" class="btn-plain scale-animation rounded-lg h-11 w-11 active:scale-90" id="lang-switch-btn">
+        <Icon name="material-symbols:translate" class="text-[1.25rem]"></Icon>
+    </button>
+    <div id="lang-panel" role="menu" class="absolute transition float-panel-closed top-11 -right-2 pt-5">
+        <div class="card-base float-panel p-2">
+            {LOCALES.map(l => (
+                <button role="menuitem" data-lang={l.code}
+                        class="lang-option flex transition whitespace-nowrap items-center justify-start w-full btn-plain scale-animation rounded-lg h-9 px-3 font-medium active:scale-95 mb-0.5 last:mb-0">
+                    {l.label}
+                </button>
+            ))}
+        </div>
+    </div>
+</div>
+
+<script>
+import {
+  COOKIE_MAX_AGE,
+  GOOGTRANS_COOKIE,
+  PREF_COOKIE,
+  SOURCE_LANG,
+} from '../constants/translate'
+
+/* Google's widget also writes googtrans scoped to the registrable domain
+   (e.g. `.arawn.capital`); a host-only write would be shadowed by it. Write
+   or expire every variant so the choice is unambiguous. */
+function domainVariants(): (string | null)[] {
+  const parts = location.hostname.split('.')
+  const out: (string | null)[] = [null]
+  for (let i = 0; i < parts.length - 1; i++) out.push(`.${parts.slice(i).join('.')}`)
+  return out
+}
+
+function writeCookie(name: string, value: string, maxAge: number) {
+  for (const domain of domainVariants()) {
+    document.cookie =
+      `${name}=${value}; Path=/; Max-Age=${maxAge}; SameSite=Lax` +
+      (domain ? `; Domain=${domain}` : '')
+  }
+}
+
+function readCookie(name: string): string | undefined {
+  return document.cookie
+    .split('; ')
+    .find(c => c.startsWith(`${name}=`))
+    ?.slice(name.length + 1)
+}
+
+function currentLang(): string {
+  const g = readCookie(GOOGTRANS_COOKIE)
+  return g?.split('/')[2] || SOURCE_LANG
+}
+
+function choose(code: string) {
+  // Host-only is enough for our own cookie; the middleware reads it on the next request.
+  document.cookie = `${PREF_COOKIE}=${code}; Path=/; Max-Age=${COOKIE_MAX_AGE}; SameSite=Lax`
+  if (code === SOURCE_LANG) writeCookie(GOOGTRANS_COOKIE, '', 0)
+  else writeCookie(GOOGTRANS_COOKIE, `/${SOURCE_LANG}/${code}`, COOKIE_MAX_AGE)
+  // The widget only reads its cookie on init, and reverting a translated DOM
+  // in place is unreliable; a reload is the deterministic path.
+  location.reload()
+}
+
+const root = document.getElementById('lang-switch')
+const panel = document.getElementById('lang-panel')
+const btn = document.getElementById('lang-switch-btn')
+
+if (root && panel && btn) {
+  const active = currentLang()
+  for (const opt of panel.querySelectorAll<HTMLButtonElement>('.lang-option')) {
+    if (opt.dataset.lang === active) opt.classList.add('current-theme-btn')
+    opt.addEventListener('click', () => {
+      if (opt.dataset.lang && opt.dataset.lang !== active) choose(opt.dataset.lang)
+      else panel.classList.add('float-panel-closed')
+    })
+  }
+  btn.addEventListener('click', e => {
+    e.stopPropagation()
+    panel.classList.toggle('float-panel-closed')
+  })
+  document.addEventListener('click', e => {
+    if (!root.contains(e.target as Node)) panel.classList.add('float-panel-closed')
+  })
+}
+</script>

@@ -9,6 +9,8 @@ const postsCollection = defineCollection({
     image: z.string().optional(),
     tags: z.array(z.string()).optional(),
     category: z.string().optional(),
+    /* Language the post is written in; set only when it differs from siteConfig.lang. */
+    lang: z.string().optional(),
   }),
 })
 export const collections = {

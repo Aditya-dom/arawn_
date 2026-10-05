@@ -16,6 +16,7 @@ import {
   LIGHT_MODE,
 } from '../constants/constants'
 import { defaultFavicons } from '../constants/icon'
+import { GOOGTRANS_COOKIE, SOURCE_LANG } from '../constants/translate'
 import type { Favicon } from '../types/config'
 import { url, pathsEqual } from '../utils/url-utils'
 
@@ -110,6 +111,38 @@ const siteLang = lang.replace('_', '-')
 					}
 			}
 		</script>
+
+		<!-- Machine translation: only pull in Google's widget when the visitor has a
+		     non-English choice (picker or geo default from middleware.ts), so the
+		     default English path loads no third-party script. -->
+		<script is:inline define:vars={{GOOGTRANS_COOKIE, SOURCE_LANG}}>
+			const target = (document.cookie.split('; ').find(c => c.startsWith(GOOGTRANS_COOKIE + '=')) || '').split('/')[2];
+			if (target && target !== SOURCE_LANG) {
+				window.googleTranslateElementInit = () => {
+					new google.translate.TranslateElement({ pageLanguage: SOURCE_LANG, autoDisplay: false }, 'google_translate_element');
+				};
+				document.addEventListener('DOMContentLoaded', () => {
+					// Outside Swup's <main> so it survives client-side navigation.
+					const el = document.createElement('div');
+					el.id = 'google_translate_element';
+					el.hidden = true;
+					document.body.appendChild(el);
+					const s = document.createElement('script');
+					s.src = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+					s.async = true;
+					document.head.appendChild(s);
+				});
+			}
+		</script>
+		<style is:global>
+			/* Suppress Google Translate's injected chrome: the top banner (which also
+			   shoves <body> down via inline top:40px), hover tooltips, highlights. */
+			body { top: 0 !important; }
+			iframe.skiptranslate, body > .skiptranslate, .goog-te-banner-frame,
+			#goog-gt-tt, .goog-te-balloon-frame, .VIpgJd-ZVi9od-ORHb-OEVmcd,
+			.VIpgJd-ZVi9od-aZ2wEe-wOHMyf, .VIpgJd-yAWNEb-L7lbkb { display: none !important; }
+			.goog-text-highlight, .VIpgJd-yAWNEb-VIpgJd-fmcmS-sn54Q { background: none !important; box-shadow: none !important; }
+		</style>
 
 		<slot name="head"></slot>
 
