@@ -8,7 +8,7 @@ import { LOCALES } from '../constants/translate'
         <Icon name="material-symbols:translate" class="text-[1.25rem]"></Icon>
     </button>
     <div id="lang-panel" role="menu" class="absolute transition float-panel-closed top-11 -right-2 pt-5">
-        <div class="card-base float-panel p-2">
+        <div class="card-base float-panel p-2 max-h-[70vh] overflow-y-auto">
             {LOCALES.map(l => (
                 <button role="menuitem" data-lang={l.code}
                         class="lang-option flex transition whitespace-nowrap items-center justify-start w-full btn-plain scale-animation rounded-lg h-9 px-3 font-medium active:scale-95 mb-0.5 last:mb-0">
