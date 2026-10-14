@@ -16,12 +16,12 @@ export const siteConfig: SiteConfig = {
   },
   banner: {
     enable: true,
-    src: 'assets/images/banner.jpg',
+    src: 'assets/images/banner-dsc00787.jpg',
     position: 'bottom',
     credit: {
-      enable: false,
-      text: '',
-      url: ''
+      enable: true,
+      text: 'Kamakura, Japan',
+      url: 'https://www.google.com/maps/place/Kamakura,+Kanagawa,+Japan'
     }
   },
   favicon: [
