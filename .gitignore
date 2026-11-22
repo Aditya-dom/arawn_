@@ -25,3 +25,13 @@ pnpm-debug.log*
 package-lock.json
 bun.lockb
 yarn.lock
+
+# Source media kept locally, never served from the repo.
+# Videos live on YouTube and are embedded; camera RAW files are negatives.
+src/content/posts/**/videos/
+*.ARW
+*.arw
+*.NEF
+*.CR2
+*.CR3
+*.DNG

@@ -304,6 +304,38 @@ const className = Astro.props.class
 
     img
       border-radius: 0.75rem
+      display: block
+      margin-left: auto
+      margin-right: auto
+      height: auto
+      max-width: 100%
+
+    /* Two fixed widths, set by rehype-image-orient, so the column edge stays
+       even. Sizing portraits by max-height instead makes each one a different
+       width depending on its exact ratio. */
+    img.img-landscape
+      width: 100%
+
+    img.img-portrait
+      width: 62%
+
+    /* Opt-in per image via `![alt](src "small")`. Declared after the
+       orientation rules so it wins at equal specificity. */
+    img.img-small
+      width: 40%
+
+    img.img-xsmall
+      width: 25%
+
+    @media (max-width: 640px)
+      img.img-portrait
+        width: 82%
+
+      img.img-small
+        width: 62%
+
+      img.img-xsmall
+        width: 45%
 
     hr
       border-color: var(--line-divider)
@@ -314,6 +346,16 @@ const className = Astro.props.class
       margin-left: auto
       margin-right: auto
       max-width: 100%
+
+    /* Video embeds: force a responsive 16:9 box so the player scales with the
+       column instead of keeping the hardcoded height attribute. Scoped to
+       video hosts so short embeds (players, widgets) keep their own height. */
+    iframe[src*="youtube.com"], iframe[src*="youtube-nocookie.com"], iframe[src*="youtu.be"], iframe[src*="player.vimeo.com"]
+      display: block
+      width: 100%
+      height: auto
+      aspect-ratio: 16 / 9
+      border: none
 
   a.card-github
     display: block
@@ -485,6 +527,13 @@ const className = Astro.props.class
     @layer components {
         .custom-md h1 {
             @apply text-3xl
+        }
+        /* a touch larger than the prose defaults (1.5rem / 1.25rem) */
+        .custom-md h2 {
+            @apply text-[1.75rem]
+        }
+        .custom-md h3 {
+            @apply text-[1.375rem]
         }
     }
 

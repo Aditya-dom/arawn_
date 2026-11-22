@@ -26,9 +26,13 @@ const isPublic = src.startsWith('/')
 // https://github.com/withastro/astro/issues/3373
 let img
 if (isLocal) {
-  const files = import.meta.glob<ImageMetadata>('../../**', {
-    import: 'default',
-  })
+  // Scoped to image extensions on purpose: an unrestricted '../../**' glob
+  // makes Vite try to parse every file under src/ as a module, so a camera
+  // RAW or a video sitting beside a post breaks the build.
+  const files = import.meta.glob<ImageMetadata>(
+    '../../**/*.{jpeg,jpg,png,tiff,webp,gif,svg,avif,JPEG,JPG,PNG,TIFF,WEBP,GIF,SVG,AVIF}',
+    { import: 'default' },
+  )
   const normalizedPath = path
     .normalize(path.join('../../', basePath, src))
     .replace(/\\/g, '/')
