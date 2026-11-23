@@ -910,7 +910,7 @@ Hong Kong would not even let me out of its airport. I saw that city twice and bo
 
 Japan said yes. Then it spent 18 days saying no to the one thing I most wanted to see, right up until the last morning.
 
-I am going to read that as an invitation. Hokkaido, Fukuoka, Hiroshima, in whatever order, with whoever wants to come. Solo, 2 of us, all 6 of us again. I do not mind.
+I am going to read that as an invitation. Hokkaido, Fukuoka, Hiroshima, in whatever order, with whoever wants to come. Solo, duo, all 6 of us again. I do not mind.
 
 I am also going to call it a flex, a fluke, a miracle. Whatever it was, it was all of them.
 
