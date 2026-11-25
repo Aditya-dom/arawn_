@@ -12,9 +12,11 @@ interface Props {
   banner?: string
   description?: string
   lang?: string
+  /* Drop the sidebar and let the content use the whole page width. */
+  fullWidth?: boolean
 }
 
-const { title, banner, description, lang } = Astro.props
+const { title, banner, description, lang, fullWidth = false } = Astro.props
 const hasBannerCredit =
   siteConfig.banner.enable && siteConfig.banner.credit.enable
 const hasBannerLink = !!siteConfig.banner.credit.url
@@ -42,9 +44,9 @@ const hasBannerLink = !!siteConfig.banner.credit.url
         </a>}
 
     </div>
-    <SideBar class="row-start-3 row-end-4 col-span-2 lg:row-start-2 lg:row-end-3 lg:col-span-1 lg:max-w-[17.5rem] onload-animation"></SideBar>
+    {!fullWidth && <SideBar class="row-start-3 row-end-4 col-span-2 lg:row-start-2 lg:row-end-3 lg:col-span-1 lg:max-w-[17.5rem] onload-animation"></SideBar>}
 
-    <div id="content-wrapper" class="row-start-2 row-end-3 col-span-2 lg:col-span-1 overflow-hidden onload-animation">
+    <div id="content-wrapper" class:list={["row-start-2 row-end-3 col-span-2 overflow-hidden onload-animation", fullWidth ? "lg:col-span-2" : "lg:col-span-1"]}>
         <!-- the overflow-hidden here prevent long text break the layout-->
         <!-- make id different from windows.swup global property -->
         <main id="swup-container" class="transition-swup-fade">
