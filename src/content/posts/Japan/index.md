@@ -478,10 +478,14 @@ Give Kamakura 2 full days. We gave it a few hours and were back in Tokyo the sam
         loading="lazy" allowfullscreen
         allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
 
+*Checking the waves at Kamakura.*
+
 <iframe src="https://www.youtube-nocookie.com/embed/sXO71L9HOs8"
         title="The beach at Kamakura"
         loading="lazy" allowfullscreen
         allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+
+*Ready to swim. In no position to swim.*
 
 ![A railway crossing in Kamakura with steps and trees behind it](./japan_photos_video_for_blog/kamakura/DSC00640.jpg)
 
@@ -527,7 +531,8 @@ I loved that city.
         loading="lazy" allowfullscreen
         allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
 
-*The steps from the end of *Your Name*.*
+*My own shot of the steps from the end of Your Name.*
+
 
 ![Walking through a busy Shibuya street in daylight, a figure in a green shirt in the middle of the crowd](./japan_photos_video_for_blog/shibuiya_me.jpg)
 *Shibuya. That is me in the green shirt.*
