@@ -9,7 +9,6 @@ slug: 18-days-in-japan
 draft: false
 ---
 
-
 I had never been outside India before this. My passport had nothing in it.
 
 What follows is 18 days in Japan with [Deepak san](https://www.linkedin.com/in/deepak-a-406483226/), [Mihir san](https://www.linkedin.com/in/0xmihirsahu/), [Pundir san](https://www.linkedin.com/in/adipundir/), [Vivek san](https://www.linkedin.com/in/vwakesahu/) and [Chiranjeev](https://www.linkedin.com/in/chiranjeev-mishra/). A trip I had no part in planning, did not expect to be on and was fairly certain I would not be allowed to take.
@@ -18,11 +17,9 @@ Every one of those names is a link. They are each very good at what they do, in 
 
 ---
 
-
 ## 16 enclosures
 
 ### Clap, clap
-
 
 I was working in my room when the door went.
 
@@ -46,9 +43,7 @@ That was the planning phase.[^1]
 
 So I filed an income tax return. Not out of any sense of civic duty, not because anyone from the department had written to me, but because a man clapped twice outside my door and said the word Japan. I want to be clear about the order of events here: the ITR exists because of the trip. The trip does not exist because of the ITR.
 
-
 ### VFS global, bengaluru
-
 
 I was not serious about any of this. I want that on record because it makes what happened later funnier and me worse. I treated the entire thing as something that was happening to Mihir and that I was filling forms adjacent to.
 
@@ -84,17 +79,13 @@ Nobody tells you this at 22. They tell you to get a passport.
 
 ---
 
-
 ## Egg tart
-
 
 We started this trip with our bags 80% empty. Pockets full of yen.
 
 The first international airport I ever stood in was Hong Kong and I never got out of it. I went through it twice and the 2 visits have nothing in common except the glass.
 
-
 ### 50 minutes
-
 
 On the way out the layover was 50 minutes. In at 09:50, out at 10:40.
 
@@ -114,9 +105,7 @@ Find My worked perfectly. It showed us the watch. It showed us the aircraft it w
 
 We got on the Tokyo flight without it.
 
-
 ### 7 hours 40
-
 
 Coming home was the opposite problem. The layover was 7 hours and 40 minutes. In at 13:15, out at 20:55. That is a full working day with a boarding pass attached to it.
 
@@ -132,11 +121,9 @@ The iPhone is still on the list.
 
 ---
 
-
 ## Konbini
 
 ### 7:30 pm, asakusa
-
 
 [Cathay](https://www.cathaypacific.com/cx/en_IN.html), both legs, on time. I am not exaggerating when I say it was a very good airline. We landed at Narita in the afternoon and were standing on the roof of our own building in Asakusa by 7:30 PM.
 
@@ -160,15 +147,14 @@ September 2026 is now the highest-step month in my phone's entire recorded histo
 
 There is a vending machine wherever you stop walking.[^3] Not a bank of them at a station. 1 machine, outside somebody's house, on a lane with nobody else on it, lit and stocked and working.
 
-
 ![The Tokyo Skytree and Sensō-ji seen together from the rooftop in Asakusa at night](./japan_photos_video_for_blog/tokyo/senso_ji/skytree_sensoji_both.jpg)
 *The view from the roof in Asakusa, first night. Both of them, from one spot.*
 
 ![A bowl of ramen on a wooden counter with Sapporo bottles behind it](./japan_photos_video_for_blog/tokyo/Ikuta-an_ramen.jpg)
 *Ikuta-an.*
 
-### Harajuku
 
+### Harajuku
 
 Day 2 we went to Harajuku to eat a fried sandwich.
 
@@ -188,9 +174,6 @@ All 3 are still undeveloped. 18 days of Japan sitting in 3 plastic cameras on a 
 
 I am not in a hurry about it. There is a version of this where I get them back 2 years from now and that is a better story than getting them back on Tuesday.
 
----
-
-
 ![Two fried dessert sandwiches held up in paper wrappers](./japan_photos_video_for_blog/tokyo/sanwhich_pic.jpg)
 
 ![The Age.3xQ counter display with sandwiches above and desserts below](./japan_photos_video_for_blog/tokyo/harajuku_sandwhich_shop.jpg)
@@ -204,8 +187,10 @@ I am not in a hurry about it. There is a version of this where I get them back 2
 ![Two Fujifilm QuickSnap disposable cameras in their green boxes](./japan_photos_video_for_blog/fujifilm_cam.jpg "xsmall")
 *3 of 3. Still undeveloped.*
 
-## R34
 
+---
+
+## R34
 
 Day 2 was not over. Day 2 was, in fact, about to become the best day of the trip and arguably the best day of my life and it did this in a motorway car park.
 
@@ -262,9 +247,7 @@ If you have seen *Tokyo Drift*, you already know what Daikoku looks like and you
 
 ![Skylines moving along a wet Tokyo motorway at night](./japan_photos_video_for_blog/tokyo/jdm/DSC00325.jpg)
 
-
 ### Excellent and silent
-
 
 The same evening I went shopping and bought a Seiko, the [5 Sports GMT in green](https://seikowatches.co.in/products/seiko-5-sports-gmt-green-dial-hdb001k1), reference HDB001K1, caliber 4R34. I spent an unreasonable amount of time first trying to find a better deal on it, then concluded at the counter that this was fine and that I would come back to Japan properly for a watch hunt.
 
@@ -280,9 +263,7 @@ And it's the same thing as the cars, the same thing as the watches, the same thi
 
 ---
 
-
 ## Sunlight prima black
-
 
 I gave the 24th entirely to shopping, start to finish. That was the plan.
 
@@ -300,13 +281,12 @@ GU is cheaper Uniqlo. Same house, same eye, less money. Not everything carries a
 
 I worked this out on the 24th. I would have liked to work it out on the 22nd.
 
-
 ![Shelves of Dragon Ball figures and manga in the TSUTAYA building at Shibuya crossing](./japan_photos_video_for_blog/tokyo/shibuya_scramble_starbucks_top_anime_store.jpg)
 
 ![A display stand of anime merchandise and figures](./japan_photos_video_for_blog/tokyo/shibuya_scramble_starbucks_topfloor_cartoon_store.jpg)
 
-### Not onitsuka
 
+### Not onitsuka
 
 I had an appointment booked at [OAO HAUS Daikanyama](https://oaofootwear.com/en/pages/oao-haus), OAO's Tokyo flagship, third floor of Trelli Daikanyama, 6 minutes on foot from the station.
 
@@ -316,9 +296,7 @@ Everybody goes to Japan and comes back with Onitsuka Tigers. I did the research 
 
 That is now a watch and a pair of shoes I have committed to buying on a trip I have not yet taken and I had been in Japan for 3 days.
 
-
 ### Where the deals actually are
-
 
 ABC Mart is where the prices are. Ginza, Shibuya, Shinjuku, take your pick. If you are hunting footwear on a budget, start there and not anywhere a blog has told you to start.
 
@@ -332,21 +310,21 @@ I have never claimed to be consistent.
 
 What actually came home is not in this post. Souvenirs, clothes, things for the house, things for people who did not come. I have named 4 or 5 of them across these sections and left out most of it, because there is no version of this where I list the rest and you keep reading.
 
----
-
+![Walking through the crowd on a Shibuya street in daylight, a figure in a green shirt in the middle](./japan_photos_video_for_blog/shibuiya_me.jpg)
+*Shibuya, on the way out to Daikanyama.*
 
 ![The Dior building in Daikanyama lit up at dusk](./japan_photos_video_for_blog/tokyo/daikanyama_dior.jpg)
 
-## The badge
 
+---
+
+## The badge
 
 On the 25th the sixth man landed.
 
 Pundir san, our resident gangster, had flown out of Bengaluru 3 days behind the rest of us and walked into a group that had already developed in-jokes, a shared opinion about GU and a working theory about fried sandwiches. So: for everything above this line we were 5 and from here to the end of the trip we are 6.
 
-
 ### Ginza place
-
 
 Before any of that, Deepak san and I went back to Ginza on the morning of the 25th. New mission.
 
@@ -376,9 +354,7 @@ So that is now a watch, a pair of shoes and a warranty waiting for me in a count
 
 It also retires my [Sennheiser HD 450BT NC](https://in.sennheiser-hearing.com/products/hd-450btnc-black-wireless-headphones). Retired, not finished. They did years of work for me and they are going to spend the rest of their life as the pair I take when I do not care what happens to them.
 
-
 ### Toranomon hills
-
 
 ETHGlobal Tokyo ran from the 25th to the 27th at Toranomon Hills Forum. All 6 of us went.
 
@@ -401,9 +377,7 @@ That is not a defence.
 ![Lunch on a table at the hackathon, two bowls and a closed laptop](./japan_photos_video_for_blog/tokyo/tokyo_foods/toranomon_food.jpg)
 *The badge got me a table and breakfast, lunch, dinner, snacks. That is the whole of my contribution.*
 
-
 ### The dorm
-
 
 For this stretch I had booked a dorm bed, partly to see what staying in one was like. It was clean, it was central and it was cheap, which is not a combination I expected to find in the middle of Tokyo.
 
@@ -419,11 +393,10 @@ We kept drinking and kept walking. We ended up at Toranomon Hills and talked abo
 
 I made 2 friends.
 
-
 ![A dark Tokyo side street at night with lit shopfronts](./japan_photos_video_for_blog/photo_6059689570778944411_w.jpg)
 
-### Borderless
 
+### Borderless
 
 On the 26th, which was day 2 of the hackathon, Chiranjeev and I went to teamLab Borderless. It is a digital art museum in Azabudai Hills and borderless is meant literally. There are no walls between the works. More than 75 of them run out of one room into the next so there is no route and no correct order. You walk. It keeps happening to you.
 
@@ -443,9 +416,7 @@ That night we went to Holy Tokyo Tower. Properly this time, rather than past it 
 
 ![Tokyo Tower lit against a black sky, a figure silhouetted at street level below it](./japan_photos_video_for_blog/tokyo/good_ME_tokyo_tower.jpg)
 
-
 ### Kamakura
-
 
 On the 27th, which was the last day of the hackathon, Mihir san, Vivek san and I got on a train at Shinagawa and left the city.
 
@@ -464,9 +435,6 @@ You can. We didn't.
 That was the first time Japan showed us the exact place from which the mountain is visible and then declined to produce the mountain. We did not yet know this was going to become a theme.
 
 Give Kamakura 2 full days. We gave it a few hours and were back in Tokyo the same evening, which was a mistake we made knowingly and would make again.
-
----
-
 
 <iframe src="https://www.youtube-nocookie.com/embed/sWfNlqblLyI"
         title="Walking through the town at Kamakura"
@@ -494,8 +462,10 @@ Give Kamakura 2 full days. We gave it a few hours and were back in Tokyo the sam
 ![Mihir crouching in a mossy garden with a camera to his eye](./japan_photos_video_for_blog/kamakura/mihir_san_kamakura.jpg)
 *Mihir san, working.*
 
-## Mirrorless
 
+---
+
+## Mirrorless
 
 The 28th was our last day in Tokyo.
 
@@ -515,9 +485,6 @@ Then Shibuya. Then a bar. Then a night I am not going to write down in any detai
 
 I loved that city.
 
----
-
-
 ![Tokyo at night from above, towers and lit streets running to the horizon](./japan_photos_video_for_blog/tokyo/tokyo_tower_and_top_view_of_tower/DSC01018.jpg)
 *From the top, looking down.*
 
@@ -533,12 +500,9 @@ I loved that city.
 
 *My own shot of the steps from the end of Your Name.*
 
-
-![Walking through a busy Shibuya street in daylight, a figure in a green shirt in the middle of the crowd](./japan_photos_video_for_blog/shibuiya_me.jpg)
-*Shibuya. That is me in the green shirt.*
+---
 
 ## Rain gear
-
 
 We left Tokyo on the Fujisan View Express, the Mt. Fuji View Express, a Fujikyu Railway sightseeing train that runs Otsuki to Kawaguchiko. The train is itself the attraction, which tells you something about how seriously this country takes the business of going somewhere.
 
@@ -574,11 +538,9 @@ We had travelled to a lake at the foot of the most photographed mountain on eart
 
 ---
 
-
 ## Bear bells
 
 ### Matsumoto
-
 
 We did not go to the castle.
 
@@ -595,9 +557,7 @@ The first night we went out for dinner at [Italian Kitchen VANSAN](https://www.g
 
 ![A tatami room with laptops open on low desks and a game running on the TV](./japan_photos_video_for_blog/matsuomoto/stay_pic.jpg)
 
-
 ### The karasawa plan
-
 
 Day 2 in Matsumoto was supposed to be the trek. Karasawa, up in the Northern Alps. About 12 hours on foot, which is why it needed a 5 o'clock start.
 
@@ -611,9 +571,7 @@ Fair enough. I should have put all of them in the bathtub.
 
 So the trek became a walk. I am going to have to live with that sentence.
 
-
 ### Kamikochi
-
 
 Train to Shinshimashima, then the bus up.
 
@@ -628,9 +586,6 @@ All 5 of us were still moving as one group by this point. 11 days in, that count
 We did cover the valley. Kappa Bridge, Taisho Pond, the paths along the Azusa on both banks. Everything down there you can reach without starting the 12 hours.
 
 It was good enough that I only think about Karasawa occasionally, which is to say daily.
-
----
-
 
 ![A green mountain lake seen through the window of a moving bus](./japan_photos_video_for_blog/matsuomoto/karasawa_kamikochi/DSC01971.jpg)
 
@@ -654,10 +609,12 @@ It was good enough that I only think about Karasawa occasionally, which is to sa
 
 ![Kappa Bridge at dusk with the valley turning blue](./japan_photos_video_for_blog/matsuomoto/karasawa_kamikochi/DSC02160.jpg)
 
+
+---
+
 ## Tatami
 
 ### Luup
-
 
 The thing we missed most in Kawaguchiko and Nagano was Luup.
 
@@ -667,9 +624,7 @@ In Kyoto we got it back and used it for everything.
 
 ![A Kyoto street at dusk, wooden shopfronts and overhead cables](./japan_photos_video_for_blog/kyoto/DSC02364.jpg)
 
-
 ### Day 1. the indian restaurant
-
 
 I want to be straight about this.
 
@@ -677,9 +632,7 @@ I want to be straight about this.
 
 I am not going to defend it. I am not sorry about it either. Then we went shopping again.
 
-
 ### Nijo castle
-
 
 Day 2 started at [Nijo Castle](https://en.wikipedia.org/wiki/Nij%C5%8D_Castle), which is where the shoguns stayed when they came to Kyoto and where the last one handed power back to the emperor in 1867. Then Tatsumi Bridge. Then more shopping because apparently that is who we are now.
 
@@ -714,9 +667,7 @@ The thing worth the ticket is a 30 metre corridor with woven bamboo balls hung o
         loading="lazy" allowfullscreen
         allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
 
-
 ### Osusume
-
 
 There is a dango shop by the bamboo forest. It was about to close. I was privately hoping it would close before we reached the counter. I had no reason for this at the time. I have one now.
 
@@ -734,9 +685,7 @@ He put the whole thing in his mouth at once.
 
 I have played a fair amount of poker. That is the best hand I have ever run. We stood there and watched the exact moment it landed. Yamraj arrived on a black buffalo, running towards Pundir san.
 
-
 ### Fushimi inari
-
 
 On the 5th we did [Fushimi Inari Taisha](https://en.wikipedia.org/wiki/Fushimi_Inari-taisha).
 
@@ -755,9 +704,6 @@ It was parked outside, overnight, wedged between a minivan and a ticket machine.
 
 On the 6th we left for Osaka.
 
----
-
-
 ![A torii gate at Fushimi Inari with the crowd blurred into motion beneath it](./japan_photos_video_for_blog/kyoto/DSC02842.jpg)
 
 ![Vermilion torii gates stacked one behind another at Fushimi Inari](./japan_photos_video_for_blog/kyoto/DSC02863.jpg)
@@ -765,10 +711,12 @@ On the 6th we left for Osaka.
 ![Kyoto Tower lit white and red against a deep blue evening sky](./japan_photos_video_for_blog/kyoto/kyoto_tower.jpg)
 *Kyoto Tower, on the way out.*
 
+
+---
+
 ## Takoyaki
 
 ### Dotonbori
-
 
 We got into Osaka on the 6th and the first thing we did was sleep. Everybody was dead. 15 days of walking will do that.
 
@@ -791,9 +739,7 @@ Then Dotonbori Bridge and the Glico sign, the running man with his arms up that 
 
 ![Tsutenkaku tower lit up at night over Shinsekai](./japan_photos_video_for_blog/osaka/osaka_tower.jpg)
 
-
 ### Shinsaibashi
-
 
 Dinner was [OKO](https://www.happycow.net/reviews/oko-okonomiyaki-osaka-161067) in Shinsaibashi and I am going to write about it properly because it earned it.
 
@@ -815,9 +761,7 @@ Put it in your itinerary.
 
 Then Don Quijote. There was never any version of this trip where 5 men walked past a Don Quijote.
 
-
 ### Nishinari
-
 
 We woke up late and went straight to lunch. There was no morning on the 7th. The day started at a curry counter.
 
@@ -837,12 +781,11 @@ I have spent a few years building things whose entire purpose is to make money. 
 
 I am not about to open a curry shop. I am saying I thought about it for the length of one lunch.
 
-
 ![The owner of Yakumido behind his counter, bottles and signs stacked behind him](./japan_photos_video_for_blog/osaka/osaka_curry_man.jpg)
 *The man who used to work a trading floor.*
 
-### Umeda
 
+### Umeda
 
 The afternoon was a mall, for a camera lens.
 
@@ -863,9 +806,7 @@ Vivek san pushed a different bowl at me and told me to take that one. I took tha
 ![A bowl of bright red spicy ramen on a red tray](./japan_photos_video_for_blog/tokyo/tokyo_foods/ramen.jpg)
 *Not the one that did it to him.*
 
-
 ### The third attempt
-
 
 We left Osaka on the Shinkansen, Shin-Osaka to Shinagawa. We picked our side of the train on purpose. There is a correct side for Fuji. We were on it.
 
@@ -875,23 +816,20 @@ The summit, poking out of the top of a cloud bank that had swallowed everything 
 
 3 attempts now. A beach. A lake. A train seat chosen specifically for the view. 3 for 3.
 
-
 ### Back to asakusa
-
 
 Our last night in Japan was in Tokyo because the flight out was from Narita. We stayed in Asakusa again. We went back up to the Skytree.
 
 I started this trip on a rooftop in Asakusa looking at the Tokyo Skytree with my bags still in my hands. I finished it in Asakusa, looking at the same tower.
 
----
-
-
 ![The five-storey pagoda at Sensō-ji lit orange against a black sky](./japan_photos_video_for_blog/tokyo/senso_ji/DSC03914.jpg)
 
 ![Rows of white paper lanterns with vertical Japanese lettering, lit at night](./japan_photos_video_for_blog/tokyo/senso_ji/check.jpg)
 
-## The way back
 
+---
+
+## The way back
 
 October 9. Narita.
 
@@ -920,7 +858,6 @@ I am going to read that as an invitation. Hokkaido, Fukuoka, Hiroshima, in whate
 I am also going to call it a flex, a fluke, a miracle. Whatever it was, it was all of them.
 
 Never say no to a trip in your early 20s. Especially an international one. Never.
-
 
 ![Mount Fuji from a plane window, the bare cone above broken cloud](./japan_photos_video_for_blog/fuji-from-the-plane-2.jpeg)
 *From the window on the way out. Nobody else in the group was awake.*
