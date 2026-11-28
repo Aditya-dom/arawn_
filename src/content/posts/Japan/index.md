@@ -342,7 +342,7 @@ Pundir san came up to the Sony store with me. I had decided on the XM6 in black 
 
 Pundir san said everybody buys black. Have this one instead.
 
-The store manager explained what it was. The [WH-1000XM6 in Sandstone](https://www.sony.jp/headphone/special/1000Xseries/), new, sold in Japan and nowhere else.
+The store manager explained what it was. The [WH-1000XM6 in Sandstone](https://pur.store.sony.jp/headphone/products/WH-1000XM6/WH-1000XM6_purchase/?s_pid=jp_/headphone/special/1000Xseries/_tsuiju_purchase_wh1000xm6), new, sold in Japan and nowhere else.
 
 Then the catch. A Japan-only colour carries a Japan-only warranty. Buy a universal colour and you can claim it anywhere in the world. Buy this one and the claim has to happen in Japan.
 
